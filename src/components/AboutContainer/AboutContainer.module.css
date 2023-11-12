@@ -1,0 +1,66 @@
+:root {
+  /*^ COLORS */
+  --Black-color : #0a0a0a;
+  --Black-color2 : #171717;
+  --Text-color-White: #fafafa;
+  --green-color: hsl(104.23, 90.27%, 68.34%);
+
+  /*^ FONTS */
+  --Alata-Font: 'Alata', sans-serif;
+  --CrimsonText-Font: 'Crimson Text', serif;
+  --Poppins-Font: 'Poppins', sans-serif;;
+}
+
+.aboutContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* gap: 2rem; */
+  min-height: 100vh;
+  width: 86%;
+  margin: auto;
+}
+
+.aboutContainer_image img {
+  width: 480px;
+  border-radius: .6rem;
+  box-shadow: 0 0 20px var(--Text-color-White);
+}
+
+.aboutContainer_content {
+  display: flex;
+  flex-direction: column;
+  flex: 0.8;
+  gap: 1rem;
+}
+
+.aboutContainer_getMeKnow h2{
+  color: var(--green-color);
+  font-family: var(--Alata-Font);
+  font-size: 2.5rem;
+}
+
+.aboutContainer_getMeKnow h4 {
+  color: gold;
+  font-family: var(--Alata-Font);
+  font-size: 1.2rem;
+  padding-top: .4rem;
+}
+
+.aboutContainer_getMeKnow .head_1,.head_2 {
+  font-family: var(--Poppins-Font);
+  color: var(--Text-color-White);
+  font-size: 1rem;
+  /* padding-left: 5rem; */
+  letter-spacing: 1px;
+}
+
+.aboutContainer_getMeKnow .head_1 {
+  padding-bottom: 1rem;
+}
+
+.aboutContainer_intrestedIn h4{
+  color: gold;
+  font-family: var(--Alata-Font);
+  font-size: 1.2rem;
+}
