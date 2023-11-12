@@ -16,7 +16,7 @@
   justify-content: space-evenly;
   align-items: center;
   margin: auto;
-  width: 86%;
+  width: 90%;
   min-height: 100vh;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .SkillContainer_image img {
-  width: 400px;
+  width: 430px;
   border-radius: 50%;
 }
 

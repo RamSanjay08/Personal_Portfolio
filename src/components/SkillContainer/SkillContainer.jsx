@@ -70,7 +70,7 @@ const SkillContainer = () => {
   ]
 
   return (
-    <Element className={SkillContainerStyle.SkillContainer}>
+    <Element name='skills' className={SkillContainerStyle.SkillContainer}>
       <div className={SkillContainerStyle.SkillContainer_image}>
         <img src={SkillImage} alt="" />
       </div>
