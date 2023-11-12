@@ -1,0 +1,129 @@
+:root {
+  /*^ COLORS */
+  --Black-color : #0a0a0a;
+  --Black-color2 : #171717;
+  --Text-color-White: #fafafa;
+  --green-color: #17cf97;
+
+  /*^ FONTS */
+  --Alata-Font: 'Alata', sans-serif;
+  --CrimsonText-Font:  'Crimson Text', serif;
+} 
+
+.navbar {
+  display: flex;
+  background-color: var(--Black-color2);
+  color: white;
+  padding-block: .8rem;
+  background-color: var(--Black-color2);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+
+.navbar span {
+  color: var(--green-color);
+}
+
+.navbar_left {
+  flex: .4;
+  display: flex;
+  justify-content: center;
+  gap: .2rem;
+  align-items: center;
+}
+
+.navbar_left img {
+  width: 1.7rem;
+}
+
+.navbar_left h1 {
+  font-family: var(--Alata-Font);
+  letter-spacing: 1px;
+}
+
+.navbar_right {
+  flex: .6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+}
+
+#navbar_right_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   gap: 3.3rem;
+}
+
+#navbar_right_content a li {
+  list-style: none;
+  cursor: pointer; 
+  font-family: var(--Alata-Font);
+  transition: 200ms ease-in-out;
+}
+
+#navbar_right_content a li:hover {
+  transform: scale(1.09);
+} 
+
+#navbar_right_content a :hover::after {
+  content: "";
+  width: 80%;
+  height: 2px;
+  background-color: var(--green-color);
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+}
+
+#navbar_right_content button {
+  padding: .6em 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: .3rem;
+  background-color: var(--green-color);
+  font-family: var(--Alata-Font);
+  transition: 200ms ease-in-out;
+
+}
+
+#navbar_right_content button:hover {
+  transform: scale(1.09);
+} 
+
+.hand_burger {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  #navbar_right_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+     gap: 1rem;
+     position: fixed;
+     top: 58px;
+     right: -300px;
+     width: 300px;
+     height: 100vh;
+     background-color: #2a3239;
+     box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+     padding: 2rem 0 0 1rem;
+     transition: .3s ease-in-out;
+  }
+
+  #navbar_right_content.active {
+    right: 0px;
+  }
+
+  .hand_burger {
+    display: block;
+    padding-right: 2rem;
+  }
+
+  .hand_burger i {
+    font-size: 1.5rem;
+    cursor: pointer; 
+  }
+}

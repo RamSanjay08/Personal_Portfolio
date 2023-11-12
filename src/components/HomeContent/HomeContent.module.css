@@ -1,0 +1,124 @@
+
+:root {
+  /*^ COLORS */
+  --Black-color : #0a0a0a;
+  --Black-color2 : #171717;
+  --Text-color-White: #fafafa;
+  --green-color: hsl(104.23, 90.27%, 68.34%);
+
+  /*^ FONTS */
+  --Alata-Font: 'Alata', sans-serif;
+  --CrimsonText-Font: 'Crimson Text', serif;
+  --Poppins-Font: 'Poppins', sans-serif;;
+
+  /*^ gradient */
+  --gradient: linear-gradient(
+    to bottom,
+    hsl(102.91, 94.05%, 67.06%) 0%,
+    hsl(103.08, 93.6%, 67.23%) 8.1%,
+    hsl(103.53, 92.32%, 67.68%) 15.5%,
+    hsl(104.23, 90.27%, 68.34%) 22.5%,
+    hsl(105.13, 87.5%, 69.12%) 29%,
+    hsl(106.2, 84.09%, 69.96%) 35.3%,
+    hsl(107.41, 80.12%, 70.8%) 41.2%,
+    hsl(108.76, 75.68%, 71.6%) 47.1%,
+    hsl(110.25, 70.94%, 72.33%) 52.9%,
+    hsl(111.85, 66.06%, 72.99%) 58.8%,
+    hsl(113.56, 61.25%, 73.56%) 64.7%,
+    hsl(115.32, 56.75%, 74.03%) 71%,
+    hsl(117.03, 52.8%, 74.4%) 77.5%,
+    hsl(118.53, 49.67%, 74.67%) 84.5%,
+    hsl(119.6, 47.61%, 74.84%) 91.9%,
+    hsl(120, 46.88%, 74.9%) 100%
+    );
+} 
+
+.HomeContent {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 86%;
+  height: 88vh;
+  font-family: var(--Poppins-Font);
+}
+
+.HomeContent_left {
+  color: var(--Text-color-White);
+  width: 80%;
+}
+
+.HomeContent_left_main {
+  display: flex;
+  gap: 3rem;
+}
+
+.HomeContent_left h3 {
+  font-size: 2rem;
+}
+
+.HomeContent_left h1 {
+  font-size: 5rem;
+  background-image: var(--gradient);
+  -webkit-background-clip: text;
+  color: transparent;
+  };
+  
+.HomeContent_left h2 {
+  font-size: 2.1rem;
+  padding-bottom: .5rem;
+}
+
+.HomeContent_left h5 {
+  font-size: 1.2rem;
+}
+
+.HomeContent_right img{
+  width:480px;
+  border-radius: 50%;
+}
+
+.HomeContent_left_btn {
+  padding-top: .8rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.HomeContent_left_btn .btn_resume,.btn_work{
+  padding: .8rem 1.5rem;
+  border-radius: .3rem;
+  cursor: pointer;
+  border: none;
+}
+
+.btn_resume {
+  background-color: var(--green-color);
+}
+
+.btn_work {
+  background-color: transparent;
+  color: var(--Text-color-White);
+  border: solid 2px var(--Text-color-White);
+}
+
+.Socialicons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.Socialicons a {
+  color: var(--Text-color-White);
+  font-size: 1.8rem;
+  transition: .3s ease-in-out;
+}
+
+.Socialicons a:hover {
+  color: var(--green-color);
+}
+
+
+
