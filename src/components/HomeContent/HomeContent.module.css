@@ -38,15 +38,24 @@
   grid-template-columns: repeat(auto-fit, minmax(200px, auto));
   justify-content: center;
   align-items: center;
+  position: relative;
   margin: auto;
   width: 86%;
-  height: 88vh;
-  font-family: var(--Poppins-Font);
+  min-height: 88vh;
+  font-family: var(--Alata-Font);
 }
 
 .HomeContent_left {
   color: var(--Text-color-White);
-  width: 80%;
+  width: 90%;
+}
+
+.HomeContent_left h2 span {
+  color: var(--green-color);
+}
+
+.HomeContent_left h1 span {
+  color: var(--Text-color-White);
 }
 
 .HomeContent_left_main {
@@ -54,24 +63,21 @@
   gap: 3rem;
 }
 
-.HomeContent_left h3 {
-  font-size: 2rem;
-}
-
 .HomeContent_left h1 {
-  font-size: 5rem;
+  font-size: 6rem;
   background-image: var(--gradient);
   -webkit-background-clip: text;
   color: transparent;
-  };
+  }
   
 .HomeContent_left h2 {
   font-size: 2.1rem;
-  padding-bottom: .5rem;
 }
 
 .HomeContent_left h5 {
   font-size: 1.2rem;
+  width: 80%;
+  padding-top: 1rem;
 }
 
 .HomeContent_right img{
@@ -80,7 +86,7 @@
 }
 
 .HomeContent_left_btn {
-  padding-top: .8rem;
+  padding-top: 1.3rem;
   display: flex;
   gap: 1rem;
 }
@@ -90,6 +96,9 @@
   border-radius: .3rem;
   cursor: pointer;
   border: none;
+  font-size: 1rem;
+  transition: .3s ease-in-out;
+  font-family: var(--Poppins-Font);
 }
 
 .btn_resume {
@@ -100,6 +109,10 @@
   background-color: transparent;
   color: var(--Text-color-White);
   border: solid 2px var(--Text-color-White);
+}
+
+.btn_work:hover,.btn_resume:hover {
+  transform: scale(1.1);
 }
 
 .Socialicons {
@@ -118,7 +131,55 @@
 
 .Socialicons a:hover {
   color: var(--green-color);
+  transform: scale(1.1);
 }
+
+@media screen and (max-width: 968px) {
+  .HomeContent {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+
+  .HomeContent_left {
+    grid-column: 1/3;
+  }
+
+  .HomeContent_right img {
+    width: 400px;
+    border-radius: 50%;
+    order: -3;
+    padding-top: 1.5rem;
+  }
+
+  .HomeContent_left h1 {
+    font-size: 4.5rem;
+    };
+}
+
+@media screen and (max-width: 768px) {
+  .HomeContent_left h1 {
+    font-size: 4rem;
+    };
+
+    .HomeContent_left {
+      color: var(--Text-color-White);
+      width: 100%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+  .HomeContent_left h1 {
+    font-size: 3rem;
+    };
+}
+
+@media screen and (max-width: 480px) {
+  .HomeContent_left h1 {
+    font-size: 2.5rem;
+    };
+}
+
+
 
 
 

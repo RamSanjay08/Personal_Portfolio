@@ -1,11 +1,12 @@
 import React from 'react'
+import { Element } from 'react-scroll'
 import HomeContent from '../HomeContent/HomeContent'
 
 const HomeContainer = () => {
   return (
-    <div>
+    <Element name="home" className="homeContainer">
       <HomeContent />
-    </div>
+    </Element>
   )
 }
 

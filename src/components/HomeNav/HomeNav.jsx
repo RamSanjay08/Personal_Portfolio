@@ -19,11 +19,11 @@ const HomeNav = () => {
       </div>
       <div className={HomeNavStyles.navbar_right}>
         <ul id={HomeNavStyles.navbar_right_content} className={handBurger ? `${HomeNavStyles.navbar_right_content} ${HomeNavStyles.active}` : HomeNavStyles.navbar_right_content}>
-          <Link to='about' smooth={true}><li>About</li></Link>
-          <Link to='skills' smooth={true}><li>Skills</li></Link>
-          <Link to='projects' smooth={true}><li>Projects</li></Link>
-          <Link to='experienece' smooth={true}><li>Experience</li></Link>
-          <Link to='contact' smooth={true}><li>Contact</li></Link>
+          <Link to='home' smooth={true} duration={500}><li>Home</li></Link>
+          <Link to='about' smooth={true} duration={500}><li>About</li></Link>
+          <Link to='skills' smooth={true} duration={500}><li>Skills</li></Link>
+          <Link to='projects' smooth={true} duration={500}><li>Projects</li></Link>
+          <Link to='contact' smooth={true} duration={500}><li>Contact</li></Link>
         <button>Get in Touch</button>
         </ul>
       </div>
