@@ -2,6 +2,7 @@ import React from "react";
 import { Element } from "react-scroll";
 import AboutStyles from "./AboutContainer.module.css";
 import ProfilePhoto from "../Assests/profilePhoto.jpg"
+import ReactSvg from "../svg/react.svg"
 
 const AboutContainer = () => {
   return (
@@ -9,8 +10,8 @@ const AboutContainer = () => {
         <div className={AboutStyles.aboutContainer_image}>
           <img src={ProfilePhoto} alt="" />
         </div>
-        <div className={AboutStyles.aboutContainer_content}>
         <div className={AboutStyles.aboutContainer_getMeKnow}>
+          <div className={AboutStyles.aboutContainer_getContent}>
           <h2>About</h2>
           <h4>Get to know me!</h4>
           <h5 className={AboutStyles.head_1}>
@@ -24,11 +25,16 @@ const AboutContainer = () => {
             A passionate and versatile frontend web developer with a strong
             focus on creating visually stunning and user-friendly websites.
           </h5>
-        </div>
-          <div className={AboutStyles.aboutContainer_intrestedIn}>
-            <h4>Things I'm Intrested in</h4>
-            <img src="" alt="" />
           </div>
+         <div className={AboutStyles.aboutContainer_education}>  
+         <div className={AboutStyles.education}>
+          <h4>Education</h4>
+          <h2>B.E Computer Science Engineering</h2>
+          <h5>Global Institute of Engineering and Technology</h5>
+          <h5>Vellore, Tamil Nadu, India</h5>
+          </div>
+         </div>
+         
         </div>
     </Element>
   );
