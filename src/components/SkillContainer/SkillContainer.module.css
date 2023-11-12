@@ -1,3 +1,63 @@
-.SkillContainer_slider3 {
+:root {
+  /*^ COLORS */
+  --Black-color : #0a0a0a;
+  --Black-color2 : #171717;
+  --Text-color-White: #fafafa;
+  --green-color: hsl(104.23, 90.27%, 68.34%);
 
+  /*^ FONTS */
+  --Alata-Font: 'Alata', sans-serif;
+  --CrimsonText-Font: 'Crimson Text', serif;
+  --Poppins-Font: 'Poppins', sans-serif;
 }
+
+.SkillContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  width: 86%;
+  min-height: 100vh;
+}
+
+.SkillContainer_image  {
+  flex: 0.4;
+}
+
+.SkillContainer_image img {
+  width: 400px;
+  border-radius: 50%;
+}
+
+.SkillContainer_text {
+  flex: 0.6;
+  max-width: 500px;
+  color: var(--Text-color-White);
+  font-family: var(--Poppins-Font)
+}
+
+.SkillContainer_text h2 {
+  font-size: 2.5rem;
+  color: var(--green-color);
+}
+
+.SkillContainer_skills h5 {
+  font-size: 1.2rem;
+}
+
+.SkillContainer_skills h5 i {
+  padding-right: 1rem;
+  color: gold;
+}
+
+.SkillContainer_slider {
+  padding-bottom: 1rem;
+}
+
+/* .SkillContainer_slider > .MuiLinearProgress-colorPrimary{
+  background-color: rgba(88, 88, 88);
+}
+
+.SkillContainer_slider2 > .MuiLinearProgress-barColorPrimary{
+  background-color:   aqua;
+} */

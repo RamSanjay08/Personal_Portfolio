@@ -11,7 +11,7 @@ const SkillContainer = () => {
       id: 1,
       skillName: "React JS",
       classslider: SkillContainerStyle.SkillContainer_slider1,
-      value: 85
+      value: 80
     },
     {
       id: 2,
@@ -27,9 +27,9 @@ const SkillContainer = () => {
     },
     {
       id: 4,
-      skillName: "HTML5",
+      skillName: "SQL",
       classslider: SkillContainerStyle.SkillContainer_slider3,
-      skillValue: 75
+      skillValue: 65
     },
     {
       id: 5,
@@ -39,9 +39,9 @@ const SkillContainer = () => {
     },
     {
       id: 6,
-      skillName: "SQL",
+      skillName: "HTML5",
       classslider: SkillContainerStyle.SkillContainer_slider3,
-      skillValue: 60
+      skillValue: 85
     },
     {
       id: 7,
@@ -79,9 +79,9 @@ const SkillContainer = () => {
         <h2>Skills</h2>
         {Skills.map(({id,skillName,classslider,skillValue}) => {
         return <div className={SkillContainerStyle.SkillContainer_skills} key={id}>
-        <h5>{skillName}</h5>
+        <h5><i class="fa-solid fa-laptop-code"></i>{skillName}</h5>
         <div className={`${SkillContainerStyle.SkillContainer_slider} ${classslider}`}>
-`             <LinearProgress variant="determinate" value={skillValue}/>
+             <LinearProgress variant="determinate" value={skillValue}/>
         </div>
       </div>
       })} 
