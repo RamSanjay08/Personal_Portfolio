@@ -1,10 +1,10 @@
 import React from "react";
 import { Element } from "react-scroll";
 import AboutStyles from "./AboutContainer.module.css";
-import ProfilePhoto from "../Assests/profilePhoto.jpg"
-import ReactSvg from "../svg/react.svg"
+import ProfilePhoto from '../Assests/profilePhoto.jpg'
 
 const AboutContainer = () => {
+
   return (
     <Element name="about" className={AboutStyles.aboutContainer}>
         <div className={AboutStyles.aboutContainer_image}>

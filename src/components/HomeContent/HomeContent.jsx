@@ -1,8 +1,9 @@
   import React from "react";
-  import homeImage from "../Assests/homeImage.jpg";
   import HomeContentStyles from "./HomeContent.module.css";
+  import homeImage from "../Assests/homeImage.jpg"
 
   const HomeContent = () => {
+
     return (
       <section className={HomeContentStyles.HomeContent}>
 

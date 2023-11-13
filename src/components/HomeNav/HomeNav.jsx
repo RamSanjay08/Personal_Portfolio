@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-scroll'
 import HomeNavStyles from './HomeNav.module.css'
-import logoIcon from "../Assests/logo.png"
+import logoIcon from '../Assests/logo.png'
 
 const HomeNav = () => {
   let [handBurger,setHandBurger] = useState(false)

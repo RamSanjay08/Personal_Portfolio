@@ -2,7 +2,7 @@ import React from 'react'
 import { Element } from 'react-scroll'
 import SkillContainerStyle from './SkillContainer.module.css'
 import  LinearProgress from '@material-ui/core/LinearProgress'
-import SkillImage from '../Assests/Skill_Image.jpg'
+import SkillImage from "../Assests/SkillImage.jpg"
 
 const SkillContainer = () => {
 
