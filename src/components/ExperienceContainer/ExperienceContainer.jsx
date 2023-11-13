@@ -11,6 +11,12 @@ import Html from "../svg/html.svg";
 import CssSvg from "../svg/css.svg";
 import Bootstrap from "../svg/bootstrap.svg";
 import Sql from "../svg/sql.svg";
+import Sass from '../svg/Sass.svg'
+import LightRoom from '../svg/lightroom.svg'
+import Photoshop from '../svg/photoshop.svg'
+import PremierPro from '../svg/premierpro.svg'
+import Illustration from '../svg/Adobeillustration.svg'
+import AdobeXD from '../svg/AdobeXD.svg'
 
 const ExperienceContainer = () => {
   const Experiences = [
@@ -53,6 +59,30 @@ const ExperienceContainer = () => {
     {
       id: 10,
       imagesSvg: Sql,
+    },
+    {
+      id: 11,
+      imagesSvg: Sass,
+    },
+    {
+      id: 12,
+      imagesSvg: LightRoom,
+    },
+    {
+      id: 13,
+      imagesSvg: Photoshop,
+    },
+    {
+      id: 14,
+      imagesSvg: PremierPro,
+    },
+    {
+      id: 15,
+      imagesSvg: Illustration,
+    },
+    {
+      id: 16,
+      imagesSvg: AdobeXD,
     },
   ];
 

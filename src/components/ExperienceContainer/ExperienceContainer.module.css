@@ -39,13 +39,16 @@
 }
 
 .ExperienceImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #fafafa;
   border-radius: 50%;
   padding: 1rem;
 }
 
 .ExperienceImage img {
-  width: 80px;
+  width: 85px;
 }
 
 .ExperienceContainer_Image {
