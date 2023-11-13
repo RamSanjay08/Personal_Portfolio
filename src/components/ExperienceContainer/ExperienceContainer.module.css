@@ -1,0 +1,56 @@
+:root {
+  /*^ COLORS */
+  --Black-color : #0a0a0a;
+  --Black-color2 : #171717;
+  --Text-color-White: #fafafa;
+  --green-color: hsl(104.23, 90.27%, 68.34%);
+
+  /*^ FONTS */
+  --Alata-Font: 'Alata', sans-serif;
+  --CrimsonText-Font: 'Crimson Text', serif;
+  --Poppins-Font: 'Poppins', sans-serif;
+}
+
+.ExperienceContainer {
+  min-height: 100vh;
+  width: 86%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.ExperienceContent {
+ text-align: center;
+ color: var(--Text-color-White);
+ font-family: var(--Alata-Font);
+}
+
+.ExperienceContent h2 {
+  font-size: 2.5rem;
+  color: var(--green-color);
+  padding-bottom: .4rem;
+}
+
+.ExperienceContent h5 {
+  font-size: 1.4rem;
+}
+
+.ExperienceImage {
+  background-color: #fafafa;
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+.ExperienceImage img {
+  width: 80px;
+}
+
+.ExperienceContainer_Image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 2rem;
+}

@@ -22,6 +22,7 @@ const HomeNav = () => {
           <Link to='home' smooth={true} duration={500}><li>Home</li></Link>
           <Link to='about' smooth={true} duration={500}><li>About</li></Link>
           <Link to='skills' smooth={true} duration={500}><li>Skills</li></Link>
+          <Link to='experience' smooth={true} duration={500}><li>Experience</li></Link>
           <Link to='projects' smooth={true} duration={500}><li>Projects</li></Link>
           <Link to='contact' smooth={true} duration={500}><li>Contact</li></Link>
         <button>Get in Touch</button>
