@@ -9,7 +9,7 @@
       title: 'Portfolio Generator',
       description: 'Here is an auto-generator portfolio web application that provides a hassle-free solution for crafting a stunning portfolio',
       skills: ["React","Bootstrap","JSX"],
-      soucre: 'https://github.com/RamSanjay08/Portfolio-Generator',
+      sourceLink: 'https://github.com/RamSanjay08/Portfolio-Generator',
       liveLink: 'https://main--chimerical-duckanoo-20a2ca.netlify.app/'
     },
     {
@@ -18,7 +18,7 @@
       title: 'IMDb Movie Rating App',
       description: 'In the MovieRatingApp, you can view movie ratings from high to low on IMDb, helping you decide which movies to watch',
       skills: ["React","Module CSS","APIs"],
-      soucre: 'https://github.com/RamSanjay08/React-Movie-App',
+      sourceLink: 'https://github.com/RamSanjay08/React-Movie-App',
       liveLink: 'https://react-movie-app-inky-nine.vercel.app/'
     },
     {
@@ -27,9 +27,9 @@
       title: 'Image Search App',
       description: 'This web app provides a diverse range of images that you can explore through search, and it offers the option to download them easily',
       skills: ["Vanilla JS","HTML & CSS","APIs"],
-      soucre: 'https://github.com/RamSanjay08/Image-Search-App',
+      sourceLink: 'https://github.com/RamSanjay08/Image-Search-App',
       liveLink: 'https://ramsanjay08.github.io/Image-Search-App/'
-    },
+    }
   ]
 
 export default Projects

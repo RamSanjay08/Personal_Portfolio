@@ -76,7 +76,7 @@ const SkillContainer = () => {
       </div>
     
       <div className={SkillContainerStyle.SkillContainer_text}>
-        <h2>Skills</h2>
+        <h2>SKILLS</h2>
         {Skills.map(({id,skillName,classslider,skillValue}) => {
         return <div className={SkillContainerStyle.SkillContainer_skills} key={id}>
         <h5><i class="fa-solid fa-laptop-code"></i>{skillName}</h5>

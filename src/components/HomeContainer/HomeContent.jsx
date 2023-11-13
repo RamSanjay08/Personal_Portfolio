@@ -9,13 +9,13 @@
 
         <div className={HomeContentStyles.HomeContent_left_main}>
         <div className={HomeContentStyles.Socialicons}>
-          <a href="https://github.com/RamSanjay08">
+          <a href="https://github.com/RamSanjay08" target="_blank">
             <i class="fa-brands fa-github"></i>
           </a>
-          <a href="https://www.linkedin.com/in/ramsanjay8/">
+          <a href="https://www.linkedin.com/in/ramsanjay8/" target="_blank">
             <i class="fa-brands fa-linkedin"></i>
           </a>
-          <a href="https://twitter.com/ram_sanjay_8">
+          <a href="https://twitter.com/ram_sanjay_8" target="_blank">
             <i class="fa-brands fa-twitter"></i>
           </a>
         </div>

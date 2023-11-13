@@ -1,6 +1,6 @@
 import React from 'react'
 import { Element } from 'react-scroll'
-import HomeContent from '../HomeContent/HomeContent'
+import HomeContent from './HomeContent'
 
 const HomeContainer = () => {
   return (

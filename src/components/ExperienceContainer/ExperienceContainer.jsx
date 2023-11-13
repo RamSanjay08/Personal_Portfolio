@@ -89,7 +89,7 @@ const ExperienceContainer = () => {
   return (
     <Element name="experience" className={ExperienceStyles.ExperienceContainer}>
       <div className={ExperienceStyles.ExperienceContent}>
-        <h2>Experience</h2>
+        <h2>EXPERIENCE</h2>
         <h5>
           Here you will discover additional details regarding my professional activities, and my current proficiency, mainly in
           programming and technology.

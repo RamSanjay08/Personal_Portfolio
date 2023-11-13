@@ -10,3 +10,28 @@
   --CrimsonText-Font: 'Crimson Text', serif;
   --Poppins-Font: 'Poppins', sans-serif;
 }
+
+.ProjectContainer {
+  color: var(--Text-color-White);
+  /* min-height: 100vh; */
+  margin-bottom: 3rem;
+}
+
+.Projects_head {
+  font-size: 2.5rem;
+  letter-spacing: 1.75px;
+  font-family: var(--Alata-Font);
+  text-align: center;
+  padding-bottom: 1rem;
+  color: var(--green-color);
+}
+
+.Projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+}

@@ -33,11 +33,12 @@
   flex: 0.6;
   max-width: 500px;
   color: var(--Text-color-White);
-  font-family: var(--Poppins-Font)
+  font-family: var(--Poppins-Font);
 }
 
 .SkillContainer_text h2 {
   font-size: 2.5rem;
+  letter-spacing: 1.75px;
   color: var(--green-color);
 }
 

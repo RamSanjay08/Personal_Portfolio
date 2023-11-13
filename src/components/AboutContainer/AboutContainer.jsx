@@ -12,7 +12,7 @@ const AboutContainer = () => {
         </div>
         <div className={AboutStyles.aboutContainer_getMeKnow}>
           <div className={AboutStyles.aboutContainer_getContent}>
-          <h2>About</h2>
+          <h2>ABOUT</h2>
           <h4>Get to know me!</h4>
           <h5 className={AboutStyles.head_1}>
             A Computer Science graduate with a B.E. degree, currently residing
