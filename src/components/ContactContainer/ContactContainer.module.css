@@ -11,20 +11,24 @@
   --Poppins-Font: "Poppins", sans-serif;
 }
 
-.ContactContainer h2,h3 {
-  font-family: var(--Alata-Font);
-  letter-spacing: 1.50px;
-  text-align: center;
-  padding-bottom: 1.1rem;
-}
 
 .ContactContainer h2 {
   font-size: 2.5rem;
   color: var(--green-color);
+  font-family: var(--Alata-Font);
+  text-align: center;
+  letter-spacing: 1.50px;
+  padding-bottom: 1.1rem;
 }
+
 .ContactContainer h3 {
-  font-size: .1.5rem;
-  color: var(--green-color);
+  font-size: 1.2rem;
+  margin: auto;
+  border-radius: .3rem;
+  font-family: var(--Poppins-Font);
+  letter-spacing: 2.5px;
+  color: var(--Text-color-White);
+  text-decoration-line: underline;
 }
 
 /*^ Form */

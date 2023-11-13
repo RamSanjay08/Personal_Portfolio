@@ -34,11 +34,11 @@ const ContactContainer = () => {
       <form ref={form} onSubmit={sendEmail}>
       <h3>GET IN TOUCH</h3>
         <label>Name</label>
-        <input type="text" name="user_name" />
+        <input type="text" name="user_name" maxlength="25" required/>
         <label>Email</label>
-        <input type="email" name="user_email" />
+        <input type="email" name="user_email" maxlength="25" required/>
         <label>Message</label>
-        <textarea name="message" />
+        <textarea name="message" required/> 
         <input type="submit" value="Send" className={ContactStyles.sub_btn}/>
       </form>
     </Element>

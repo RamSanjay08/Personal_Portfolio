@@ -18,6 +18,9 @@
           <a href="https://twitter.com/ram_sanjay_8" target="_blank">
             <i class="fa-brands fa-twitter"></i>
           </a>
+          <a href="" target="_blank">
+          <i class="fa-brands fa-youtube"></i>
+          </a>
         </div>
 
         <div className={HomeContentStyles.HomeContent_left}>

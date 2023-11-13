@@ -25,7 +25,6 @@ const HomeNav = () => {
           <Link to='experience' smooth={true} duration={500}><li>Experience</li></Link>
           <Link to='projects' smooth={true} duration={500}><li>Projects</li></Link>
           <Link to='contact' smooth={true} duration={500}><li>Contact</li></Link>
-        <button>Get in Touch</button>
         </ul>
       </div>
         <div className={HomeNavStyles.hand_burger} onClick={handleSubmit}>

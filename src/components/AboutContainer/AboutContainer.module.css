@@ -22,8 +22,9 @@
 
 .aboutContainer_image img {
   width: 480px;
-  border-radius: .6rem;
+  border-radius: 5rem;
   box-shadow: 0 0 20px var(--Text-color-White);
+  filter: grayscale(35%);
 }
 
 .aboutContainer_getMeKnow {
@@ -74,4 +75,25 @@
   font-size: 0.9rem;
   font-weight: 200;
   color: var(--Text-color-White);
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 1.3rem;
+}
+
+.contacts a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: var(--green-color);
+  letter-spacing: .5px;
+}
+
+.contacts i {
+  padding-right: 1.5rem;
+  color: var(--Text-color-White);
+
 }

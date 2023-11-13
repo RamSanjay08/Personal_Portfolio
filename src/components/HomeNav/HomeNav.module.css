@@ -83,21 +83,6 @@
   left: 0;
 }
 
-#navbar_right_content button {
-  padding: .6em 1rem;
-  cursor: pointer;
-  border: none;
-  border-radius: .3rem;
-  background-color: var(--green-color);
-  font-family: var(--Alata-Font);
-  transition: 200ms ease-in-out;
-
-}
-
-#navbar_right_content button:hover {
-  transform: scale(1.09);
-} 
-
 .hand_burger {
   display: none;
 }
