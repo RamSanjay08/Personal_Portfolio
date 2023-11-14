@@ -98,4 +98,8 @@ input[type="submit"] {
   background: rgb(12, 91, 170);
 }
 
+input[type="value"] {
+  color: #0a0a0a;
+}
+
 
