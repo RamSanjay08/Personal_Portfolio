@@ -1,0 +1,74 @@
+:root {
+  /*^ COLORS */
+  --Black-color : #0a0a0a;
+  --Black-color2 : #171717;
+  --Text-color-White: #fafafa;
+  --green-color: hsl(104.23, 90.27%, 68.34%);
+
+  /*^ FONTS */
+  --Alata-Font: 'Alata', sans-serif;
+  --CrimsonText-Font: 'Crimson Text', serif;
+  --Poppins-Font: 'Poppins', sans-serif;;
+}
+
+.ContactFooter {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  background-color: var(--Black-color2);
+}
+
+.ContactFooter .Connect {
+  padding-top: 1.2rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--green-color);
+  text-decoration: none;
+}
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  font-size: 1.1rem;
+  padding-bottom: 1.2rem;
+}
+
+.contacts a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: var(--Text-color-White);
+  letter-spacing: .5px;
+}
+
+.contacts i {
+  padding-right: .5rem;
+}
+
+.Socialicons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.Socialicons a {
+  color: var(--Text-color-White);
+  font-size: 1.8rem;
+  transition: .3s ease-in-out;
+}
+
+.Socialicons a:hover {
+  color: var(--green-color);
+  transform: scale(1.1);
+}
+
+.copyrights p {
+  text-align: center;
+  background-color: var(--Text-color-White);
+  color: var(--Black-color2);
+  font-family: var(--Alata-Font);
+  font-size: 1.2rem;
+  padding-block: .2rem;
+}

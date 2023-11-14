@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import { Element } from "react-scroll";
 import ContactStyles from "./ContactContainer.module.css";
 import emailjs from "@emailjs/browser";
-import ContactImage from "../Assests/ContactImage.jpg"
+import ContactFooter from "./ContactFooter";
 
 const ContactContainer = () => {
   const form = useRef();
@@ -41,6 +41,7 @@ const ContactContainer = () => {
         <textarea name="message" required/> 
         <input type="submit" value="Send" className={ContactStyles.sub_btn}/>
       </form>
+      <ContactFooter/>
     </Element>
   );
 };
