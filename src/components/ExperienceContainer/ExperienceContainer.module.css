@@ -46,6 +46,12 @@
   background-color: #fafafa;
   border-radius: 50%;
   padding: 1rem;
+  transition: .3s ease-in-out;
+}
+
+.ExperienceImage:hover {
+  transform: scale(1.3);
+  /* background-color: gold; */
 }
 
 .ExperienceImage img {

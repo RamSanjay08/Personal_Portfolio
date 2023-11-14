@@ -25,8 +25,14 @@
 }
 
 .SkillContainer_image img {
-  width: 430px;
-  border-radius: 50%;
+  width: 460px;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+  transition: .3s ease-in-out;
+  border-radius: 10rem;
+}
+
+.SkillContainer_image img:hover {
+  transform: scale(1.1);
 }
 
 .SkillContainer_text {

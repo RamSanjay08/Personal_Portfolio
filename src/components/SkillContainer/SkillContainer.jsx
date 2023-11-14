@@ -11,13 +11,13 @@ const SkillContainer = () => {
       id: 1,
       skillName: "React JS",
       classslider: SkillContainerStyle.SkillContainer_slider1,
-      value: 80
+      skillValue: 80
     },
     {
       id: 2,
       skillName: "JavaScript",
       classslider: SkillContainerStyle.SkillContainer_slider2,
-      value: 80
+      skillValue: 80
     },
     {
       id: 3,
@@ -72,14 +72,14 @@ const SkillContainer = () => {
   return (
     <Element name='skills' className={SkillContainerStyle.SkillContainer}>
       <div className={SkillContainerStyle.SkillContainer_image}>
-        <img src={SkillImage} alt="" />
+        <img src={SkillImage} alt="Skills" />
       </div>
     
       <div className={SkillContainerStyle.SkillContainer_text}>
         <h2>SKILLS</h2>
         {Skills.map(({id,skillName,classslider,skillValue}) => {
         return <div className={SkillContainerStyle.SkillContainer_skills} key={id}>
-        <h5><i class="fa-solid fa-laptop-code"></i>{skillName}</h5>
+        <h5><i className="fa-solid fa-laptop-code"></i>{skillName}</h5>
         <div className={`${SkillContainerStyle.SkillContainer_slider} ${classslider}`}>
              <LinearProgress variant="determinate" value={skillValue}/>
         </div>

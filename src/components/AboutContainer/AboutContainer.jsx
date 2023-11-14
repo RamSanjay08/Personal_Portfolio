@@ -27,13 +27,13 @@ const AboutContainer = () => {
         <div className={AboutStyles.contacts}>
           <div className={AboutStyles.mobile}>
             <a href="tel:+919786589488">
-              <i class="fa-solid fa-phone"></i>
+              <i className="fa-solid fa-phone"></i>
               <span>+91 9786589488</span>
             </a>
           </div>
           <div className={AboutStyles.email}>
             <a href="mailto:ramsanjaydev08@gmail.com">
-              <i class="fa-solid fa-envelope"></i>
+              <i className="fa-solid fa-envelope"></i>
               <span>ramsanjaydev08@gmail.com</span>
             </a>
           </div>
