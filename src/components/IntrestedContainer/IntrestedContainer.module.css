@@ -11,7 +11,7 @@
 
 .ExperienceContent {
  text-align: center;
- color: var(--Text-color-White);
+ color: var(--Seconday-color);
  font-family: var(--Alata-Font);
 }
 
@@ -30,7 +30,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #fafafa;
+  background-color: var(--Seconday-color);
   border-radius: 50%;
   padding: 1rem;
   transition: .3s ease-in-out;

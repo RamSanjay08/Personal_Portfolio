@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-scroll";
 import HomeNavStyles from "./NavBar.module.css";
 import logoIcon from "../Assests/logo.png";
+import DarkMode from "../DarkMode/DarkMode";
 
 const NavBar = () => {
   let [handBurger, setHandBurger] = useState(false);
@@ -38,9 +39,6 @@ const NavBar = () => {
           <Link to="skills" smooth={true} duration={500}>
             <li>Skills</li>
           </Link>
-          <Link to="experience" smooth={true} duration={500}>
-            <li>Experience</li>
-          </Link>
           <Link to="projects" smooth={true} duration={500}>
             <li>Projects</li>
           </Link>
@@ -52,8 +50,9 @@ const NavBar = () => {
       <div className={HomeNavStyles.hand_burger} onClick={handleSubmit}>
         <i id="bar" className={handBurger ? "fas fa-times" : "fas fa-bars"}></i>
       </div>
+      <DarkMode />
     </nav>
-  );
+  );  
 };
 
 export default NavBar;

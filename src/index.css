@@ -3,34 +3,23 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
-* {
+ * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  transition: all .3s ease-in-out;
 }
 
 html,body {
   width: 100%;
 }
 
- body {
-  background-color: #0f172a;
- }
-
  :root {
-  /*^ COLORS */
-  --Black-color : #0a0a0a;
-  --Black-color2 : #171717;
-  --Text-color-White: #fafafa;
-  --green-color: hsl(104.23, 90.27%, 68.34%);
-
-  /*^ FONTS */
   --Alata-Font: 'Alata', sans-serif;
   --CrimsonText-Font: 'Crimson Text', serif;
   --Poppins-Font: 'Poppins', sans-serif;
   --OutFit-Font: 'Outfit', sans-serif;
 
-    /*^ gradient */
     --gradient: linear-gradient(
       to bottom,
       hsl(102.91, 94.05%, 67.06%) 0%,
@@ -50,4 +39,17 @@ html,body {
       hsl(119.6, 47.61%, 74.84%) 91.9%,
       hsl(120, 46.88%, 74.9%) 100%
       );
+
+      --body-background: #ffffff;
+      --Seconday-color: #0F0C27;
+      --Black-color : #0a0a0a;
+      --Black-color2 : #171717;
+      --green-color: hsl(104.23, 90.27%, 68.34%);
+}
+
+[data-theme="dark"] {
+  --body-background: #0f172a;
+  --Seconday-color: #fafafa;
+  --Black-color : #0a0a0a;
+  --Black-color2 : #171717;
 }

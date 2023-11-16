@@ -1,6 +1,5 @@
 import React from "react";
-import { Element } from "react-scroll";
-import ExperienceStyles from "./ExperienceContainer.module.css";
+import ExperienceStyles from "./IntrestedContainer.module.css";
 import Reactsvg from "../svg/react.svg";
 import MongoDB from "../svg/mongodb.svg";
 import NodeJssvg from "../svg/nodejs.svg";
@@ -18,7 +17,7 @@ import PremierPro from '../svg/premierpro.svg'
 import Illustration from '../svg/Adobeillustration.svg'
 import AdobeXD from '../svg/AdobeXD.svg'
 
-const ExperienceContainer = () => {
+const IntrestedContainer = () => {
   const Experiences = [
     {
       id: 1,
@@ -87,9 +86,9 @@ const ExperienceContainer = () => {
   ];
 
   return (
-    <Element name="experience" className={ExperienceStyles.ExperienceContainer}>
+    <section className={ExperienceStyles.ExperienceContainer}>
       <div className={ExperienceStyles.ExperienceContent}>
-        <h2>EXPERIENCE</h2>
+        <h2>Things I'm Intrested in</h2>
         <h5>
           Here you will discover additional details regarding my professional activities, and my current proficiency, mainly in
           programming and technology.
@@ -104,8 +103,8 @@ const ExperienceContainer = () => {
         );
       })}
       </div>
-    </Element>
+    </section>
   );
 };
 
-export default ExperienceContainer;
+export default IntrestedContainer;

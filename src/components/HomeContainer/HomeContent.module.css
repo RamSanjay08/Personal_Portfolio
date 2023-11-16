@@ -18,7 +18,7 @@
 .HomeContent_left {
   display: flex;
   flex-direction: column;
-  color: var(--Text-color-White);
+  color: var(--);
   width: 90%;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .HomeContent_left h1 span {
-  color: var(--Text-color-White);
+  color: var(--Seconday-color);
 }
 
 .HomeContent_left h1 {
@@ -48,7 +48,7 @@
 }
 
 .HomeContent_right img{
-  width:520px;
+  width: 450px;
   border-radius: 50%;
 }
 
@@ -74,8 +74,8 @@
 
 .btn_work {
   background-color: transparent;
-  color: var(--Text-color-White);
-  border: solid 2px var(--Text-color-White);
+  color: var(--Seconday-color);
+  border: solid 2px var(--Seconday-color);
 }
 
 .btn_work:hover,.btn_resume:hover {
@@ -91,7 +91,7 @@
 }
 
 .Socialicons a {
-  color: var(--Text-color-White);
+  color: var(--Seconday-color);
   font-size: 1.8rem;
   transition: .3s ease-in-out;
 }

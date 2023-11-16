@@ -63,12 +63,6 @@ const SkillContainer = () => {
     },
     {
       id: 10,
-      skillName: "Sass",
-      classslider: SkillContainerStyle.SkillContainer_slider3,
-      skillValue: 66
-    },
-    {
-      id: 11,
       skillName: "Bootstrap",
       classslider: SkillContainerStyle.SkillContainer_slider3,
       skillValue: 75

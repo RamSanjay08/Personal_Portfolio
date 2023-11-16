@@ -11,7 +11,7 @@
 .aboutContainer_image img {
   width: 500px;
   border-radius: 5rem;
-  box-shadow: 0 0 20px var(--Text-color-White);
+  box-shadow: 0 0 20px var(--Seconday-color);
   filter: grayscale(35%);
 }
 
@@ -38,7 +38,7 @@
 
 .aboutContainer_getMeKnow .head_1,.head_2 {
   font-family: var(--OutFit-Font);
-  color: var(--Text-color-White);
+  color: var(--Seconday-color);
   font-size: 1.3rem;
   font-weight: bold;
   letter-spacing: 1px;
@@ -52,7 +52,7 @@
   font-family: var(--OutFit-Font);
   font-size: 1.6rem;
   letter-spacing: 1.75px;
-  color: var(--Text-color-White);
+  color: var(--Seconday-color);
   padding-bottom: .3rem;
 }
 
@@ -67,7 +67,7 @@
   font-family: var(--OutFit-Font);
   font-size: 1rem;
   font-weight: 400;
-  color: var(--Text-color-White);
+  color: var(---Seconday-color);
 }
 
 .contacts {
@@ -88,7 +88,7 @@
 
 .contacts i {
   padding-right: 1.5rem;
-  color: var(--Text-color-White);
+  color: var(--Seconday-color);
 }
 
 /*^ Media Queries */

@@ -16,7 +16,7 @@ const ContactFooter = () => {
           <a href="https://twitter.com/ram_sanjay_8" target="_blank">
             <i className="fa-brands fa-twitter"></i>
           </a>
-          <a href="" target="_blank">
+          <a href="https://www.youtube.com/channel/UCwYwJzYpZc5ANdgnyPvjI3A" target="_blank">
           <i className="fa-brands fa-youtube"></i>
           </a>
         </div>
@@ -28,7 +28,7 @@ const ContactFooter = () => {
             </a>
           </div>
           <div className={ContactFooterStyles.email}>
-            <a href="mailto:ramsanjaydev08@gmail.com">
+            <a href="mailto: ramsanjaydev08@gmail.com">
               <i className="fa-solid fa-envelope"></i>
               <span>ramsanjaydev08@gmail.com</span>
             </a>

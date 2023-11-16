@@ -19,14 +19,14 @@
           <a href="https://twitter.com/ram_sanjay_8" target="_blank">
             <i className="fa-brands fa-twitter"></i>
           </a>
-          <a href="" target="_blank">
+          <a href="https://www.youtube.com/channel/UCwYwJzYpZc5ANdgnyPvjI3A" target="_blank">
           <i className="fa-brands fa-youtube"></i>
           </a>
         </div>
 
         <div className={HomeContentStyles.HomeContent_left}>
           <h1><span>I'm</span> Ram Sanjay</h1>
-          <h2><span>Creative</span> Front-End developer</h2>
+          <h2><span>Creative</span> Front-End Developer</h2>
           <h5>
             I'm a Frontend Web Developer building the Front-end of Websites and
             Web Applications that leads to the success of the overall product & Passionate about creating seamless and intuitive user interfaces..
