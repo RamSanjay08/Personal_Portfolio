@@ -84,3 +84,62 @@
   color: var(--green-color);
   transform: scale(1.1);
 }
+
+@media screen and (max-width: 885px) {
+  
+} 
+
+@media screen and (max-width: 768px) {
+  .Project_Container {
+    max-width: 500px;
+  }
+} 
+
+@media screen and (max-width: 640px) {
+  .Project_Container {
+    max-width: 400px;
+  }
+  .Project_title {
+    font-size: 1.6rem;
+  }
+  .Project_skill {
+    font-size: 1rem;
+  }
+} 
+
+@media screen and (max-width: 475px) {
+  .Project_Container {
+    max-width: 350px;
+  }
+
+  .Project_title {
+    font-size: 1.5rem;
+  }
+  .Project_skill {
+    font-size: .9rem;
+  }
+} 
+
+@media screen and (max-width: 375px) {
+  .Project_Container {
+    max-width: 300px;
+  }
+  .Project_title {
+    font-size: 1.rem;
+  }
+  .Project_skill {
+    font-size: .7rem;
+  }
+} 
+
+@media screen and (max-width: 320px) {
+  .Project_Container {
+    max-width: 290px;
+  }
+  .Project_title {
+    font-size: 1.3rem;
+  }
+  .Project_skill {
+    font-size: .625rem;
+  }
+} 
