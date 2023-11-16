@@ -12,7 +12,7 @@
 }
 
 .ProjectContainer {
-  color: var(--Text-color-White);
+  color: #ffffff;
   margin-bottom: 3rem;
   padding-top: 2.8rem;
 }
@@ -23,7 +23,7 @@
   font-family: var(--Alata-Font);
   text-align: center;
   padding-bottom: 1rem;
-  color: var(--green-color);
+  color: var(--Primary-color);
 }
 
 .Projects {

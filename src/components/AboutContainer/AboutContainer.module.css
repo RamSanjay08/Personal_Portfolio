@@ -23,14 +23,14 @@
 }
 
 .aboutContainer_getMeKnow h2{
-  color: var(--green-color);
+  color: var(--Primary-color);
   font-family: var(--Alata-Font);
   font-size: 2.5rem;
   letter-spacing: 1.75px;
 }
 
 .aboutContainer_getMeKnow h4 {
-  color: gold;
+  color: var(--third-color);
   font-family: var(--OutFit-Font);
   font-size: 1.5rem;
   letter-spacing: 1.75px;
@@ -59,7 +59,7 @@
 .education h4 {
   font-family: var(--OutFit-Font);
   font-size: 1.6rem;
-  color: gold;
+  color: var(--third-color);
   padding-bottom: .2rem;
 }
 
@@ -67,7 +67,7 @@
   font-family: var(--OutFit-Font);
   font-size: 1rem;
   font-weight: 400;
-  color: var(---Seconday-color);
+  color: var(--Seconday-color);
 }
 
 .contacts {
@@ -81,7 +81,7 @@
   text-decoration: none;
   font-family: var(--OutFit-Font);
   font-weight: bold;
-  color: var(--green-color);
+  color: var(--Primary-color);
   letter-spacing: 1px;
   font-size: 1.4rem;
 }

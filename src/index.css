@@ -20,7 +20,51 @@ html,body {
   --Poppins-Font: 'Poppins', sans-serif;
   --OutFit-Font: 'Outfit', sans-serif;
 
-    --gradient: linear-gradient(
+    --gradient-mode:
+      linear-gradient(
+        to bottom,
+        hsl(330, 98.29%, 45.88%) 0%,
+        hsl(330.06, 98.3%, 45.8%) 8.1%,
+        hsl(330.23, 98.32%, 45.58%) 15.5%,
+        hsl(330.51, 98.36%, 45.23%) 22.5%,
+        hsl(330.88, 98.41%, 44.78%) 29%,
+        hsl(331.33, 98.47%, 44.24%) 35.3%,
+        hsl(331.88, 98.55%, 43.64%) 41.2%,
+        hsl(332.49, 98.65%, 42.99%) 47.1%,
+        hsl(333.18, 98.76%, 42.32%) 52.9%,
+        hsl(333.9, 98.88%, 41.65%) 58.8%,
+        hsl(334.66, 99.03%, 41%) 64.7%,
+        hsl(335.39, 99.19%, 40.39%) 71%,
+        hsl(336.07, 99.37%, 39.87%) 77.5%,
+        hsl(336.62, 99.56%, 39.45%) 84.5%,
+        hsl(336.98, 99.77%, 39.15%) 91.9%,
+        hsl(337.09, 100%, 39.02%) 100%
+      );
+
+      --body-background: #ffffff;
+      --Primary-color: #001B79;
+      --Seconday-color: #0F0C27;
+      --third-color: #DF2E38;
+      --btn-color: #ffffff;
+      --skills-color: #ffffff;
+      --green-color: hsl(104.23, 90.27%, 68.34%);
+      --form-bgcolor: #0f172a;
+      --Black-color : #0a0a0a;
+      --Black-color2 : #171717;
+}
+
+[data-theme="dark"] {
+  --body-background: #0f172a;
+  --Primary-color: hsl(104.23, 90.27%, 68.34%);
+  --Seconday-color: #fafafa;
+  --third-color: #FFFB73;
+  --btn-color: #0F0C27;
+  --green-color: hsl(104.23, 90.27%, 68.34%);
+  --form-bgcolor: #0f172a;
+  --Black-color : #0a0a0a;
+  --Black-color2 : #171717;
+  
+  --gradient-mode: linear-gradient(
       to bottom,
       hsl(102.91, 94.05%, 67.06%) 0%,
       hsl(103.08, 93.6%, 67.23%) 8.1%,
@@ -39,17 +83,4 @@ html,body {
       hsl(119.6, 47.61%, 74.84%) 91.9%,
       hsl(120, 46.88%, 74.9%) 100%
       );
-
-      --body-background: #ffffff;
-      --Seconday-color: #0F0C27;
-      --Black-color : #0a0a0a;
-      --Black-color2 : #171717;
-      --green-color: hsl(104.23, 90.27%, 68.34%);
-}
-
-[data-theme="dark"] {
-  --body-background: #0f172a;
-  --Seconday-color: #fafafa;
-  --Black-color : #0a0a0a;
-  --Black-color2 : #171717;
 }

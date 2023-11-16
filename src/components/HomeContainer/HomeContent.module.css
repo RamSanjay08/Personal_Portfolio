@@ -18,33 +18,33 @@
 .HomeContent_left {
   display: flex;
   flex-direction: column;
-  color: var(--);
   width: 90%;
 }
-
-.HomeContent_left h2 span {
-  color: var(--green-color);
-}
-
 .HomeContent_left h1 span {
   color: var(--Seconday-color);
 }
 
+.HomeContent_left h2 span {
+  color: var(--Primary-color);
+}
+
 .HomeContent_left h1 {
   font-size: 6rem;
-  background-image: var(--gradient);
+  background-image: var(--gradient-mode);
   background-clip: text;
   color: transparent;
   }
   
 .HomeContent_left h2 {
   font-size: 2.1rem;
+  color: var(--Seconday-color);
 }
 
 .HomeContent_left h5 {
   font-size: 1.2rem;
   padding-top: 1rem;
   width: 80%;
+  color: var(--Seconday-color);
 }
 
 .HomeContent_right img{
@@ -65,11 +65,13 @@
   border: none;
   font-size: 1rem;
   transition: .3s ease-in-out;
+  font-weight: 600;
   font-family: var(--Poppins-Font);
 }
 
 .btn_resume {
-  background-color: var(--green-color);
+  background-color: var(--Primary-color);
+  color: var(--btn-color);
 }
 
 .btn_work {
@@ -93,11 +95,11 @@
 .Socialicons a {
   color: var(--Seconday-color);
   font-size: 1.8rem;
-  transition: .3s ease-in-out;
+  transition: .2s ease-in-out;
 }
 
 .Socialicons a:hover {
-  color: var(--green-color);
+  color: var(--Primary-color);
   transform: scale(1.1);
 }
 

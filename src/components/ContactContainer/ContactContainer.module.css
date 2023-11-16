@@ -1,6 +1,6 @@
 .ContactContainer h2 {
   font-size: 2.5rem;
-  color: var(--green-color);
+  color: var(--Primary-color);
   font-family: var(--Alata-Font);
   text-align: center;
   letter-spacing: 1.50px;
@@ -13,8 +13,7 @@
   border-radius: .3rem;
   font-family: var(--Poppins-Font);
   letter-spacing: 2.5px;
-  color: var(--Seconday-color);
-  text-decoration-line: underline;
+  color: #FFFB73;
 }
 
 /*^ Form */
@@ -30,6 +29,7 @@ form {
   padding: 1rem 1rem 1.6rem 1rem;
   border-radius: .5rem;
   margin-bottom: 2rem;
+  background-color: var(--form-bgcolor);
 }
 
 input {
@@ -63,7 +63,7 @@ textarea:focus {
 
 label {
   margin-top: 1rem;
-  color: var(--Seconday-color);
+  color: #fafafa;
   font-family: var(--Poppins-Font);
 }
 

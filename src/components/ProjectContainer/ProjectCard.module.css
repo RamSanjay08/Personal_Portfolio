@@ -2,10 +2,11 @@
   display: flex;
   flex-direction: column;
   border-radius: .8rem;
-  background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
+  background: linear-gradient(180deg, #141516 0%, #232327 100%);
   box-shadow: 0 8px 15px 0 #04152d;
   max-width: 420px;
   overflow: hidden;
+  border: solid 2px #fafafa;
 }
 
 .Project_image {
@@ -22,7 +23,7 @@
 
 .Project_title {
   font-family: var(--Alata-Font);
-  color: gold;
+  color: #FFFB73;  
   font-size: 1.7rem;
   letter-spacing: 1.10px;
   padding-block: .3rem;
@@ -47,8 +48,9 @@
   font-size: 1.2rem;
   font-family: var(--Poppins-Font);
   border-radius: 100px;
-  background-color: var(--Black-color2);
+  background-color: #fafafa;
   padding: 2px 1.2rem;
+  color: #0F0C27;
 }
 
 .Project_links {
@@ -61,7 +63,7 @@
 .Project_link {
   text-decoration: none;
   font-size: 1.6rem;
-  color: var(--Text-color-White);
+  color: #ffffff;
   margin-right: 1rem;
   cursor: pointer;
   transition: .3s ease-in-out;
