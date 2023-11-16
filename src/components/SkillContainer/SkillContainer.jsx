@@ -27,9 +27,9 @@ const SkillContainer = () => {
     },
     {
       id: 4,
-      skillName: "SQL",
+      skillName: "Tailwind CSS",
       classslider: SkillContainerStyle.SkillContainer_slider3,
-      skillValue: 65
+      skillValue: 85
     },
     {
       id: 5,
@@ -45,7 +45,7 @@ const SkillContainer = () => {
     },
     {
       id: 7,
-      skillName: "Bootstrap",
+      skillName: "Node JS",
       classslider: SkillContainerStyle.SkillContainer_slider3,
       skillValue: 75
     },
@@ -65,7 +65,13 @@ const SkillContainer = () => {
       id: 10,
       skillName: "Sass",
       classslider: SkillContainerStyle.SkillContainer_slider3,
-      skillValue: 60
+      skillValue: 66
+    },
+    {
+      id: 11,
+      skillName: "Bootstrap",
+      classslider: SkillContainerStyle.SkillContainer_slider3,
+      skillValue: 75
     },
   ]
 
