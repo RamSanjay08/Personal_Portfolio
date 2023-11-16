@@ -82,7 +82,7 @@
   }
 
   .navbar_right {
-    padding-right: 2rem;
+    padding-right: 6rem;
   }  
 }
 
@@ -92,7 +92,7 @@
   }
 
   .navbar_right {
-    padding-right: 1.6rem;
+    padding-right: 6rem;
     font-size: 1rem;
 
   }  
@@ -128,7 +128,7 @@
 
   .hand_burger i {
     position: absolute;
-    right: 1rem;
+    right: 5.5rem;
     top: 1.1rem;
     font-size: 1.5rem;
     cursor: pointer; 

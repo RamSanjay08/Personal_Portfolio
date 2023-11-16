@@ -46,11 +46,11 @@ const NavBar = () => {
             <li>Contact</li>
           </Link>
         </ul>
+      <DarkMode />
       </div>
       <div className={HomeNavStyles.hand_burger} onClick={handleSubmit}>
         <i id="bar" className={handBurger ? "fas fa-times" : "fas fa-bars"}></i>
       </div>
-      <DarkMode />
     </nav>
   );  
 };
