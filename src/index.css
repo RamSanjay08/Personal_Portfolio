@@ -43,7 +43,7 @@ html,body {
 
       --body-background: #ffffff;
       --Primary-color: #001B79;
-      --Seconday-color: #0F0C27;
+      --Seconday-color: #1C1E21;
       --third-color: #DF2E38;
       --btn-color: #ffffff;
       --skills-color: #ffffff;
@@ -53,16 +53,16 @@ html,body {
       --Black-color2 : #171717;
 }
 
-[data-theme="dark"] {
-  --body-background: #0f172a;
-  --Primary-color: hsl(104.23, 90.27%, 68.34%);
-  --Seconday-color: #fafafa;
-  --third-color: #FFFB73;
-  --btn-color: #0F0C27;
-  --green-color: hsl(104.23, 90.27%, 68.34%);
-  --form-bgcolor: #0f172a;
-  --Black-color : #0a0a0a;
-  --Black-color2 : #171717;
+  [data-theme="dark"] {
+    --body-background: #0f172a;
+    --Primary-color: hsl(104.23, 90.27%, 68.34%);
+    --Seconday-color: #fafafa;
+    --third-color: #FFFB73;
+    --btn-color: #0F0C27;
+    --green-color: hsl(104.23, 90.27%, 68.34%);
+    --form-bgcolor: #0f172a;
+    --Black-color : #0a0a0a;
+    --Black-color2 : #171717;
   
   --gradient-mode: linear-gradient(
       to bottom,
