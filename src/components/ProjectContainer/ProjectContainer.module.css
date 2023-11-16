@@ -15,6 +15,7 @@
   color: var(--Text-color-White);
   /* min-height: 100vh; */
   margin-bottom: 3rem;
+  padding-top: 2.8rem;
 }
 
 .Projects_head {
