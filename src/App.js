@@ -18,7 +18,7 @@ function App() {
       <ProjectContainer/>
       <ContactContainer/>
     </div>
-  );
+  )
 }
 
 export default App;
