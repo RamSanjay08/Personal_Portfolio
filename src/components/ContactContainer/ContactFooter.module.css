@@ -1,19 +1,8 @@
-:root {
-  /*^ COLORS */
-  --Black-color : #0a0a0a;
-  --Black-color2 : #171717;
-  --Text-color-White: #fafafa;
-  --green-color: hsl(104.23, 90.27%, 68.34%);
-
-  /*^ FONTS */
-  --Alata-Font: 'Alata', sans-serif;
-  --CrimsonText-Font: 'Crimson Text', serif;
-  --Poppins-Font: 'Poppins', sans-serif;;
-}
-
 .ContactFooter {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 1.2rem;
   background-color: var(--Black-color2);
 }
@@ -74,32 +63,15 @@
 }
 
 @media screen and (max-width: 475px) {
+  .ContactFooter {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
   .contacts {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 1.5rem;
-    font-size: 1.1rem;
-    padding-bottom: 1.2rem;
+    text-align: center;
+    gap: .6rem;
   }
 }
-
-@media screen and (max-width: 1280px) {
-
-} 
-
-@media screen and (max-width: 1024px) {
-
-} 
-
-@media screen and (max-width: 768px) {
-
-} 
-
-@media screen and (max-width: 640px) {
-
-} 
-
-@media screen and (max-width: 475px) {
-
-} 

@@ -33,7 +33,7 @@ const ContactContainer = () => {
   };
 
   return (
-    <Element name="contact" className={ContactStyles.ContactContainer}>s
+    <Element name="contact" className={ContactStyles.ContactContainer}>
       <h2>CONTACT</h2>
       <form ref={form} onSubmit={sendEmail}>
       <h3>GET IN TOUCH</h3>
