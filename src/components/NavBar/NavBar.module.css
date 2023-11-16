@@ -24,21 +24,22 @@
   z-index: 2000;
 }
 
+.navbar_left_link {
+  display: flex;
+  gap: .3rem;
+}
+
 .navbar span {
   color: var(--green-color);
 }
 
 .navbar_left {
-  display: flex;
   padding-left: 8rem;
-  justify-content: center;
-  gap: .2rem;
-  align-items: center;
 }
 
 .navbar_left img {
   cursor: pointer;
-  width: 1.7rem;
+  width: 1.6rem;
 }
 
 .navbar_left h1 {
@@ -83,18 +84,6 @@
   left: 0;
 }
 
-#navbar_right_content a :visited {
-  content: "";
-  width: 80%;
-  height: 2px;
-  background-color: var(--green-color);
-  position: absolute;
-  bottom: -4px;
-  left: 0;
-}
-
-
-
 .hand_burger {
   display: none;
 }
@@ -115,7 +104,9 @@
   }
 
   .navbar_right {
-    padding-right: 1rem;
+    padding-right: 1.6rem;
+    font-size: 1rem;
+
   }  
 }
 
@@ -125,16 +116,17 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-     gap: 1rem;
-     position: fixed;
-     top: 58px;
-     right: -300px;
-     width: 300px;
-     height: 100vh;
-     background-color: #2a3239;
-     box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
-     padding: 2rem 0 0 1rem;
-     transition: .3s ease-in-out;
+    gap: 1rem;
+    position: fixed;
+    top: 58px;
+    right: -300px;
+    width: 300px;
+    height: 100vh;
+    background-color: #2a3239;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    padding: 2rem 0 0 1rem;
+    transition: .3s ease-in-out;
+    font-size: 1.1rem;
   }
 
   #navbar_right_content.active {
@@ -147,17 +139,19 @@
   }
 
   .hand_burger i {
+    position: absolute;
+    right: 1rem;
+    top: 1.1rem;
     font-size: 1.5rem;
     cursor: pointer; 
   }
-}
-
-@media screen and (max-width: 425px) {
+  
   .navbar_left {
     padding-left: 1rem;
   }
 
   .navbar_right {
+    font-size: .8rem;
     padding-right: 1rem;
   }  
 }

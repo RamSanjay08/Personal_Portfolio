@@ -1,6 +1,7 @@
   import React from "react";
   import HomeContentStyles from "./HomeContent.module.css";
   import homeImage from "../Assests/homeImage.jpg"
+  import { Link } from "react-scroll"
 
   const HomeContent = () => {
 
@@ -34,9 +35,9 @@
             <a href="">
               <button className={HomeContentStyles.btn_resume}>Resume</button>
             </a>
-            <a href="">
+            <Link to="projects" smooth={true} duration={500} >
               <button className={HomeContentStyles.btn_work}>My Work</button>
-            </a>
+            </Link>
           </div>
         </div>
         </div>

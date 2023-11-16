@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import { Link, Element } from "react-scroll";
-import HomeNavStyles from "./HomeNav.module.css";
+import { Link } from "react-scroll";
+import HomeNavStyles from "./NavBar.module.css";
 import logoIcon from "../Assests/logo.png";
 
-const HomeNav = () => {
+const NavBar = () => {
   let [handBurger, setHandBurger] = useState(false);
 
   const handleSubmit = () => {
@@ -13,10 +13,12 @@ const HomeNav = () => {
   return (
     <nav className={HomeNavStyles.navbar}>
       <div className={HomeNavStyles.navbar_left}>
+        <Link to="home" smooth={true} duration={500} className={HomeNavStyles.navbar_left_link}>
         <img src={logoIcon} alt="" />
         <h1>
           Ram <span>Dev.</span>
         </h1>
+        </Link>
       </div>
       <div className={HomeNavStyles.navbar_right}>
         <ul
@@ -54,4 +56,4 @@ const HomeNav = () => {
   );
 };
 
-export default HomeNav;
+export default NavBar;

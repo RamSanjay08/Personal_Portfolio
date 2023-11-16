@@ -1,5 +1,5 @@
 import './App.css';
-import HomeNav from './components/HomeNav/HomeNav'
+import NavBar from './components/NavBar/NavBar'
 import HomeContainer from './components/HomeContainer/HomeContainer';
 import SkillContainer from './components/SkillContainer/SkillContainer';
 import AboutContainer from './components/AboutContainer/AboutContainer'
@@ -10,7 +10,7 @@ import ContactContainer from './components/ContactContainer/ContactContainer';
 function App() {
   return (
     <div className="App">
-      <HomeNav/>
+      <NavBar/>
       <HomeContainer/>
       <AboutContainer/>
       <SkillContainer/>

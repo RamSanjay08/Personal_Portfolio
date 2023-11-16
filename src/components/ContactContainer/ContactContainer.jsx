@@ -25,7 +25,11 @@ const ContactContainer = () => {
         (error) => {
           console.log(error.text);
         }
-      );
+      )
+      .finally(() => {
+        form.current.reset();
+      });
+      
   };
 
   return (
