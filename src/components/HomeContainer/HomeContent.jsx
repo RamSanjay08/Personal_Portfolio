@@ -32,7 +32,7 @@
             Web Applications that leads to the success of the overall product & Passionate about creating seamless and intuitive user interfaces..
           </h5>
           <div className={HomeContentStyles.HomeContent_left_btn}>
-            <a href="">
+            <a href="https://drive.google.com/file/d/1u7dV6wuiWHeAXXljePY7AY-W2rrus6ER/view?usp=sharing">
               <button className={HomeContentStyles.btn_resume}>Resume</button>
             </a>
             <Link to="projects" smooth={true} duration={500} >
