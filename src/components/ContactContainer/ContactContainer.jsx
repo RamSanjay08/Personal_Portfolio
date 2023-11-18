@@ -34,9 +34,9 @@ const ContactContainer = () => {
       )
       .then(
         (result) => {
+          Notify()
           setGetInput({user_name:"",user_email:"",message:""})
           console.log(result.text);
-          Notify()
           console.log("Successfull");
         },
         (error) => {

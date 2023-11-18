@@ -80,6 +80,7 @@
   .SkillContainer_image img {
     padding-top: 2.5rem;
     width: 450px;
+    border-radius: 23% 77% 25% 75% / 48% 25% 75% 52% ;
   }
   .SkillContainer_text {
     min-width: 550px;

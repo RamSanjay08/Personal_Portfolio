@@ -19,7 +19,7 @@
       description: 'In the MovieRatingApp, you can view movie ratings from high to low on IMDb, helping you decide which movies to watch',
       skills: ["React","Module CSS","APIs"],
       sourceLink: 'https://github.com/RamSanjay08/React-Movie-App',
-      liveLink: 'https://react-movie-app-inky-nine.vercel.app/'
+      liveLink: 'https://react-movie-pkb4emkez-ram-sanjays-projects.vercel.app/'
     },
     {
       id: 3,
