@@ -12,7 +12,7 @@
   width: 500px;
   border-radius: 5rem;
   box-shadow: 0 0 20px var(--Seconday-color);
-  filter: grayscale(35%);
+  filter: grayscale(25%);
 }
 
 .aboutContainer_getMeKnow {
