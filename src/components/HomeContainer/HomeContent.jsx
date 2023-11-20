@@ -26,7 +26,7 @@
 
         <div className={HomeContentStyles.HomeContent_left}>
           <h1><span>I'm</span> Ram Sanjay</h1>
-          <h2><span>Creative</span> Front-End Developer</h2>
+          <h2 className={HomeContentStyles.creative_dev}><span>Creative</span> Front-End Developer</h2>
           <h5>
             I'm a Frontend Web Developer building the Front-end of Websites and
             Web Applications that leads to the success of the overall product & Passionate about creating seamless and intuitive user interfaces..
