@@ -106,7 +106,7 @@
 
   .HomeContent_right img {
     width: 385px;
-    padding-top: 2.2rem;
+    padding-top: 2rem;
   }
 
   .HomeContent_left h1 {
@@ -122,7 +122,7 @@
 
   .HomeContent_right img {
     width: 400px;
-    padding-top: 2.2rem;
+    padding-top: 1.2rem;
   }
 
   .HomeContent_left_main {
@@ -146,6 +146,10 @@
 
   .HomeContent_left .creative_dev {
     font-size: 1.4rem;
+  }
+
+  .HomeContent_right img {
+    padding-top: 1rem;
   }
 
 
@@ -186,7 +190,7 @@
 
     .HomeContent_right img {
       width: 300px;
-      padding-top: 1.1rem;
+      padding-top: 1rem;
     }
 
     .HomeContent_left_btn .btn_resume,.btn_work{
@@ -209,11 +213,6 @@
       gap: 1.5rem;
       font-size: .5rem;
       padding-top: .3rem;
-    }
-
-    .Socialicons i {
-      text-align: center;
-      font-size: 1.6rem;
     }
 
     .HomeContent_left_main {
