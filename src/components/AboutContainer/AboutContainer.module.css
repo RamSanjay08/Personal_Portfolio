@@ -123,7 +123,7 @@
 
 @media screen and (max-width: 640px) {
   .aboutContainer {
-    padding-top: .8rem;
+    padding-top: 1.2rem;
   }
 
   .aboutContainer_image img {
@@ -132,6 +132,9 @@
 } 
 
 @media screen and (max-width: 425px) {
+  .aboutContainer {
+    padding-top: 1.2rem;
+  }
   .aboutContainer_image img {
     width: 320px;
   }
