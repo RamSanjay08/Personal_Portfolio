@@ -1,6 +1,4 @@
 .HomeContent {
-  /* display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, auto)); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -139,7 +137,7 @@
 @media screen and (max-width: 640px) {
 
   .HomeContent {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .HomeContent_left h1 {
@@ -151,6 +149,10 @@
 
   .HomeContent {
     width: 100%;
+  }
+
+  .HomeContent_left {
+    transform: translateY(-4%);
   }
 
   .HomeContent_left h1 {
@@ -174,7 +176,7 @@
 
     .HomeContent_right img {
       width: 300px;
-      padding-top: 2.2rem;
+      padding-top: 1.1rem;
     }
 
     .HomeContent_left_btn .btn_resume,.btn_work{
@@ -195,7 +197,13 @@
     .Socialicons {
       flex-direction: row;
       gap: 1.5rem;
-      padding-top: 1rem;
+      font-size: .5rem;
+      padding-top: .3rem;
+    }
+
+    .Socialicons i {
+      text-align: center;
+      font-size: 1.6rem;
     }
 
     .HomeContent_left_main {

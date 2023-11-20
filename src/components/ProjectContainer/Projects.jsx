@@ -20,7 +20,7 @@
       description: 'I have developed a food web app with the help of React, Tailwind CSS, and React Hooks, focusing on an enhanced user interface design',
       skills: ["React","Tailwind CSS"],
       sourceLink: 'https://github.com/RamSanjay08/Food-App-React',
-      liveLink: 'https://food-app-react-gnxqe1a9a-ram-sanjays-projects.vercel.app/'
+      liveLink: 'https://food-app-react-kappa.vercel.app/'
     },
     {
       id: 3,
