@@ -106,7 +106,7 @@
 
   .HomeContent_right img {
     width: 385px;
-    padding-top: 2rem;
+    padding-top: .5rem;
   }
 
   .HomeContent_left h1 {
@@ -122,7 +122,7 @@
 
   .HomeContent_right img {
     width: 400px;
-    padding-top: 1.2rem;
+    padding-top: .5rem;
   }
 
   .HomeContent_left_main {
@@ -149,7 +149,7 @@
   }
 
   .HomeContent_right img {
-    padding-top: 1rem;
+    padding-top: .5rem;
   }
 
 
@@ -190,7 +190,7 @@
 
     .HomeContent_right img {
       width: 300px;
-      padding-top: 1rem;
+      padding-top: .5rem;
     }
 
     .HomeContent_left_btn .btn_resume,.btn_work{
@@ -217,7 +217,6 @@
 
     .HomeContent_left_main {
       flex-direction: column;
-      gap: 0rem;
     }
 
 }
