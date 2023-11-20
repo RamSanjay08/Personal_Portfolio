@@ -22,7 +22,12 @@
   color: var(--Seconday-color);
 }
 
-.HomeContent_left h2 span {
+.HomeContent_left .creative_dev {
+  font-size: 2.1rem;
+  color: var(--Seconday-color);
+}
+
+.HomeContent_left .creative_dev span {
   color: var(--Primary-color);
 }
 
@@ -32,11 +37,6 @@
   background-clip: text;
   color: transparent;
   }
-  
-.HomeContent_left h2 {
-  font-size: 2.1rem;
-  color: var(--Seconday-color);
-}
 
 .HomeContent_left h5 {
   font-size: 1.2rem;
@@ -140,6 +140,15 @@
     flex-direction: column-reverse;
   }
 
+  .HomeContent_left .creative_dev span {
+    font-size: 1.4rem;
+  }
+
+  .HomeContent_left .creative_dev {
+    font-size: 1.4rem;
+  }
+
+
   .HomeContent_left h1 {
     font-size: 3rem;
     };
@@ -161,7 +170,7 @@
     };
 
     .HomeContent_left .creative_dev span {
-      /* font-size: 1.2rem; */
+      font-size: 1.2rem;
     }
 
     .HomeContent_left .creative_dev {
