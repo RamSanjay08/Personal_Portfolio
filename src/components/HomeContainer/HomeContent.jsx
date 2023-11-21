@@ -4,7 +4,6 @@
   import { Link } from "react-scroll"
 
   const HomeContent = () => {
-
     return (
       <section className={HomeContentStyles.HomeContent}>
 
