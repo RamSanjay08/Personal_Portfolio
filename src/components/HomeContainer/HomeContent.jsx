@@ -18,8 +18,8 @@
           <a href="https://twitter.com/ram_sanjay_8" target="_blank">
             <i className="fa-brands fa-twitter"></i>
           </a>
-          <a href="https://www.youtube.com/channel/UCwYwJzYpZc5ANdgnyPvjI3A" target="_blank">
-          <i className="fa-brands fa-youtube"></i>
+          <a href="mailto:ramsanjaydev08@gmail.com">
+          <i class="fa-solid fa-envelope"></i>
           </a>
         </div>
 
