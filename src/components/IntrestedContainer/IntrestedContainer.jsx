@@ -9,13 +9,12 @@ import Figma from "../svg/figma.svg";
 import Html from "../svg/html.svg";
 import CssSvg from "../svg/css.svg";
 import Bootstrap from "../svg/bootstrap.svg";
-import Sql from "../svg/sql.svg";
-import Sass from '../svg/Sass.svg'
 import LightRoom from '../svg/lightroom.svg'
 import Photoshop from '../svg/photoshop.svg'
 import PremierPro from '../svg/premierpro.svg'
-import Illustration from '../svg/Adobeillustration.svg'
 import AdobeXD from '../svg/AdobeXD.svg'
+import Tailwind from '../svg/iconssvg/tailwind.png'
+import Mui from '../svg/iconssvg/mui.png'
 
 const IntrestedContainer = () => {
   const Experiences = [
@@ -29,7 +28,7 @@ const IntrestedContainer = () => {
     },
     {
       id: 3,
-      imagesSvg: NodeJssvg,
+      imagesSvg: Tailwind,
     },
     {
       id: 4,
@@ -57,11 +56,11 @@ const IntrestedContainer = () => {
     },
     {
       id: 10,
-      imagesSvg: Sql,
+      imagesSvg: NodeJssvg,
     },
     {
       id: 11,
-      imagesSvg: Sass,
+      imagesSvg: Mui,
     },
     {
       id: 12,
@@ -77,12 +76,8 @@ const IntrestedContainer = () => {
     },
     {
       id: 15,
-      imagesSvg: Illustration,
-    },
-    {
-      id: 16,
       imagesSvg: AdobeXD,
-    },
+    }
   ];
 
   return (

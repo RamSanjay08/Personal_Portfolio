@@ -6,10 +6,10 @@
   color: white;
   padding-block: .8rem;
   background-color: var(--Black-color2);
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
   position: sticky;
   top: 0;
   z-index: 2000;
+  border-bottom: .5px solid #7042f861;
 }
 
 .navbar_left_link {
