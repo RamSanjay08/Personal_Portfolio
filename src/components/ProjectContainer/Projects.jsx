@@ -18,7 +18,7 @@
       id: 2,
       ImageSrc: Youtube,
       title: 'Youtube Project',
-      description: 'I have developed a food web app with the help of React, Tailwind CSS, and React Hooks, focusing on an enhanced user interface design',
+      description: 'Developed a YouTube landing page using React, incorporating Rapid API for video playback, and ensuring mobile responsiveness',
       skills: ["React","MUI","Rapid API"],
       sourceLink: 'https://github.com/RamSanjay08/Youtube-Clone-Rapid-Api',
       liveLink: 'https://youtube-rapidapi.vercel.app/'
