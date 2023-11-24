@@ -3,6 +3,7 @@
   import ImageSearchApp from '../Assests/Image_Search_App.png'
   import FoodApp from '../Assests/Food_App.png'
   import Youtube from '../Assests/Youtube-Clone.png'
+  import Analog from '../Assests/Analog Clock.png'
   
   const Projects = [
     {
@@ -49,6 +50,15 @@
       skills: ["Vanilla JS","HTML & CSS"],
       sourceLink: 'https://github.com/RamSanjay08/Image-Search-App',
       liveLink: 'https://ramsanjay08.github.io/Image-Search-App/'
+    },
+    {
+      id: 5,
+      ImageSrc: Analog,
+      title: 'Analog Clock',
+      description: 'Dynamically develop a creatively designed analog clock in a web environment using JavaScript and style it with CSS',
+      skills: ["Vanilla JS","HTML & CSS"],
+      sourceLink: 'https://github.com/RamSanjay08/Analog-Clock',
+      liveLink: 'https://ramsanjay08.github.io/Analog-Clock/'
     }
   ]
 
