@@ -1,7 +1,7 @@
 import React from "react";
 import { Element } from "react-scroll";
 import AboutStyles from "./AboutContainer.module.css";
-import ProfilePhoto from "../Assests/profilePhoto.jpg";
+import ProfilePhoto from "../Assests/profile-image.jpg";
 
 const AboutContainer = () => {
   return (

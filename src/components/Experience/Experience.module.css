@@ -52,7 +52,7 @@
 
 @media screen and (max-width: 640px) {
   .ExperienceContainer {
-    gap: 1.2rem;
+    gap: 1.3rem;
   }
   .ExperienceData {
     padding-block: 1.1rem;

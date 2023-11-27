@@ -19,29 +19,29 @@
     {
       id: 2,
       ImageSrc: Youtube,
-      title: 'Youtube Project',
-      description: 'Developed a YouTube landing page using React, incorporating Rapid API for video playback, and ensuring mobile responsiveness',
+      title: 'Youtube Clone',
+      description: 'Cloned an Youtube web Application with both mobile & web responsive ,Tech stack used ReactJS and Fetching the API from Rapid API',
       skills: ["React","MUI","Rapid API"],
       sourceLink: 'https://github.com/RamSanjay08/Youtube-Clone-Rapid-Api',
       liveLink: 'https://youtube-rapidapi.vercel.app/'
     },
     {
       id: 3,
-      ImageSrc: FoodApp,
-      title: 'Food Web App',
-      description: 'I have developed a food web app with the help of React, Tailwind CSS, and React Hooks, focusing on an enhanced user interface design',
-      skills: ["React","Tailwind CSS"],
-      sourceLink: 'https://github.com/RamSanjay08/Food-App-React',
-      liveLink: 'https://food-app-react-kappa.vercel.app/'
-    },
-    {
-      id: 4,
       ImageSrc: MovieRatingApp,
       title: 'IMDb Movie Rating App',
       description: 'In the MovieRatingApp, you can view movie ratings from high to low on IMDb, helping you decide which movies to watch',
       skills: ["React","APIs","HTML & CSS3"],
       sourceLink: 'https://github.com/RamSanjay08/React-Movie-App',
       liveLink: 'https://react-movie-app-gray-kappa.vercel.app/'
+    },
+    {
+      id: 4,
+      ImageSrc: FoodApp,
+      title: 'Food Web App',
+      description: 'I have developed a food web app with the help of React, Tailwind CSS, and React Hooks, focusing on an enhanced user interface design',
+      skills: ["React","Tailwind CSS"],
+      sourceLink: 'https://github.com/RamSanjay08/Food-App-React',
+      liveLink: 'https://food-app-react-kappa.vercel.app/'
     },
     {
       id: 5,
