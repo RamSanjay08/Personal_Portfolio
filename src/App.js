@@ -6,6 +6,7 @@ import AboutContainer from './components/AboutContainer/AboutContainer'
 import IntrestedContainer from './components/IntrestedContainer/IntrestedContainer';
 import ProjectContainer from './components/ProjectContainer/ProjectContainer'
 import ContactContainer from './components/ContactContainer/ContactContainer';
+import Experiences from './components/Experience/Experience'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <HomeContainer/>
       <AboutContainer/>
       <SkillContainer/>
+      <Experiences />
       <IntrestedContainer/>
       <ProjectContainer/>
       <ContactContainer/>

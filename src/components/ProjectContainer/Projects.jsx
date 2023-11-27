@@ -34,7 +34,7 @@
       liveLink: 'https://food-app-react-kappa.vercel.app/'
     },
     {
-      id: 3,
+      id: 4,
       ImageSrc: MovieRatingApp,
       title: 'IMDb Movie Rating App',
       description: 'In the MovieRatingApp, you can view movie ratings from high to low on IMDb, helping you decide which movies to watch',
@@ -43,7 +43,7 @@
       liveLink: 'https://react-movie-app-gray-kappa.vercel.app/'
     },
     {
-      id: 4,
+      id: 5,
       ImageSrc: ImageSearchApp,
       title: 'Wallpaper API',
       description: 'This web app provides a diverse range of images that you can explore through search, and it offers the option to download them easily',
@@ -52,7 +52,7 @@
       liveLink: 'https://ramsanjay08.github.io/Image-Search-App/'
     },
     {
-      id: 5,
+      id: 6,
       ImageSrc: Analog,
       title: 'Analog Clock',
       description: 'Dynamically develop a creatively designed analog clock in a web environment using JavaScript and style it with CSS',

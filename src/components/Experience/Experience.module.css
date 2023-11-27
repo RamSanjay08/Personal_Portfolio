@@ -1,0 +1,54 @@
+.ExperienceContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 3.3rem;
+  padding-bottom: 2rem;
+}
+.title {
+  font-family: var(--Poppins-Font);
+  text-align: center;
+  font-size: 2.5rem;
+  letter-spacing: 1.75px;
+  color: var(--Primary-color);
+  padding-bottom: 1.8rem;
+}
+
+.ExperienceData {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.3rem;
+  color: var(--Seconday-color);
+  border: solid var(--Seconday-color) 2px;
+  width: 280px;
+  padding-block: 2.5rem;
+  border-radius: 50px;
+  box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.011),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.016),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.02),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.024),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.029),
+  100px 100px 80px rgba(0, 0, 0, 0.04);
+  transition: all .3s ease-in-out
+}
+
+
+
+.ExperienceData i {
+  color: var(--third-color);
+  font-size: 2.6rem;
+  transition: all .5s ease-in-out;
+}
+
+.ExperienceData i:hover{
+ transform: rotate(360deg);
+}
+
+.ExperienceData h2 {
+  font-family: var(--Poppins-Font);
+}
+
