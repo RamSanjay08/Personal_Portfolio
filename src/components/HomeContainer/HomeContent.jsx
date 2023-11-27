@@ -18,7 +18,7 @@
           <a href="https://twitter.com/ram_sanjay_8" target="_blank">
             <i className="fa-brands fa-twitter"></i>
           </a>
-          <a href="mailto:ramsanjaydev08@gmail.com">
+          <a href="mailto:ram.sanjay.techie@gmail.com">
           <i className="fa-solid fa-envelope"></i>
           </a>
         </div>
@@ -31,7 +31,7 @@
             Web Applications that leads to the success of the overall product & Passionate about creating seamless and intuitive user interfaces..
           </h5>
           <div className={HomeContentStyles.HomeContent_left_btn}>
-            <a href="https://drive.google.com/file/d/1fLfs3hM-JualtgHT9uTBuPjOMFRgcUWZ/view?usp=sharing" target="_blank">
+            <a href="https://drive.google.com/file/d/1kugplXAA50apTjDn3m8rSmmweCXN40Bw/view?usp=sharing" target="_blank">
               <button className={HomeContentStyles.btn_resume}>Resume</button>
             </a>
             <Link to="projects" smooth={true} duration={500} >

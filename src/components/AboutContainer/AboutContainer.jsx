@@ -32,9 +32,9 @@ const AboutContainer = () => {
             </a>
           </div>
           <div className={AboutStyles.email}>
-            <a href="mailto:ramsanjaydev08@gmail.com">
+            <a href="mailto:ram.sanjay.techie@gmail.com">
               <i className="fa-solid fa-envelope"></i>
-              <span>ramsanjaydev08@gmail.com</span>
+              <span>ram.sanjay.techie@gmail.com</span>
             </a>
           </div>
         </div>
