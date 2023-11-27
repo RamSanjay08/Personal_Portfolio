@@ -3,7 +3,7 @@
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  gap: 3.3rem;
+  gap: 3.1rem;
   padding-bottom: 2rem;
 }
 .title {
@@ -20,11 +20,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1.3rem;
+  gap: 1.2rem;
   color: var(--Seconday-color);
   border: solid var(--Seconday-color) 2px;
   width: 280px;
-  padding-block: 2.5rem;
+  padding-block: 2.4rem;
   border-radius: 50px;
   box-shadow:
   2.8px 2.8px 2.2px rgba(0, 0, 0, 0.011),
@@ -48,5 +48,21 @@
 
 .ExperienceData h2 {
   font-family: var(--Poppins-Font);
+}
+
+@media screen and (max-width: 640px) {
+  .ExperienceContainer {
+    gap: 1.2rem;
+  }
+  .ExperienceData {
+    padding-block: 1.1rem;
+    gap: .7rem;
+  }
+  .ExperienceData i {
+    font-size: 2rem;
+  }
+  .ExperienceData h2  {
+    font-size: 1.4rem;
+  }
 }
 
