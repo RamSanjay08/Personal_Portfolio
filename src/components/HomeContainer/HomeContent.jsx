@@ -31,7 +31,7 @@
             Web Applications that leads to the success of the overall product & Passionate about creating seamless and intuitive user interfaces..
           </h5>
           <div className={HomeContentStyles.HomeContent_left_btn}>
-            <a href="https://drive.google.com/file/d/16H_s1rI4sCRlzPVmGLD-pHFaMseaos03/view?usp=sharing" target="_blank">
+            <a href="https://drive.google.com/file/d/14qp4dmLCbuIGsvWhr9mkU7HaSGc_vpoX/view?usp=sharing" target="_blank">
               <button className={HomeContentStyles.btn_resume}>Resume</button>
             </a>
             <Link to="projects" smooth={true} duration={500} >
