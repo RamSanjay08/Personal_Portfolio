@@ -4,6 +4,7 @@
   import FoodApp from '../Assests/Food_App.png'
   import Youtube from '../Assests/Youtube-Clone.png'
   import Analog from '../Assests/Analog Clock.png'
+  import DataAnalytics from '../Assests/data analytics.png'
   
   const Projects = [
     {
@@ -53,6 +54,15 @@
     },
     {
       id: 6,
+      ImageSrc: DataAnalytics,
+      title: 'IBM Data Analytics',
+      description: 'Analytics for Hospitals Health-Care Data, Utilized various data visualization and statistical analysis in IBM for health-care data',
+      skills: ["IBM Cognos","Data Visualization"],
+      sourceLink: 'https://github.com/shrix1/IBM-Data_Analytics_College-project/',
+      liveLink: 'https://ibm-webpage-shrix1.vercel.app/'
+    },
+    {
+      id: 7,
       ImageSrc: Analog,
       title: 'Analog Clock',
       description: 'Dynamically develop a creatively designed analog clock in a web environment using JavaScript and style it with CSS',
