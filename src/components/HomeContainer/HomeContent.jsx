@@ -6,7 +6,6 @@
   const HomeContent = () => {
     return (
       <section className={HomeContentStyles.HomeContent}>
-
         <div className={HomeContentStyles.HomeContent_left_main}>
         <div className={HomeContentStyles.Socialicons}>
           <a href="https://github.com/RamSanjay08" target="_blank">
