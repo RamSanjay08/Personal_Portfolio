@@ -1,30 +1,26 @@
-import React from 'react'
-import ExperienceStyles from './Experience.module.css'
+import React from "react";
+import ExperienceStyles from "./Experience.module.css";
+import { Element } from "react-scroll";
 
 const Experience = () => {
   return (
-    <>
+    <Element name="experience">
       <h2 className={ExperienceStyles.title}>Experience</h2>
-    <section className={ExperienceStyles.ExperienceContainer}>
+      <section className={ExperienceStyles.ExperienceContainer}>
         <div className={ExperienceStyles.ExperienceData}>
-           <i className="fa-regular fa-file-code"></i>
-          <h2>Web Development</h2>
+          <h2>IBM Internship</h2>
+          <h6>
+            Collabrated with IBM and a four-member team to analyze COVID-19 data
+            in the Hospital Healthcare Domain in my final year of engineering.
+            Leveraged data analytics to identify patient Length of Stay trends,
+            providing insights to assist hospitals in resource planning and
+            enhanced patient care with focus on outcomes and costs
+          </h6>
+          <h5>NOV 2022 - <span>FEB 2023</span></h5>
         </div>
-        <div className={ExperienceStyles.ExperienceData}>
-        <i className="fa-solid fa-palette"></i>
-          <h2>UI/UX Design</h2>
-        </div>
-        <div className={ExperienceStyles.ExperienceData}>
-        <i className="fa-solid fa-magnifying-glass-chart"></i>
-          <h2>Data Analytics</h2>
-        </div>
-        <div className={ExperienceStyles.ExperienceData}>
-        <i className="fa-solid fa-video"></i>
-          <h2>Video Editing</h2>
-        </div>
-    </section>
-    </>
-  )
-}
+      </section>
+      </Element>
+  );
+};
 
-export default Experience
+export default Experience;

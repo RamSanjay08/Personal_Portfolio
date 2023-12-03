@@ -11,19 +11,19 @@ const SkillContainer = () => {
       id: 1,
       skillName: "React JS",
       classslider: SkillContainerStyle.SkillContainer_slider1,
-      skillValue: 80
+      skillValue: 90
     },
     {
       id: 2,
       skillName: "JavaScript",
       classslider: SkillContainerStyle.SkillContainer_slider2,
-      skillValue: 80
+      skillValue: 90
     },
     {
       id: 3,
       skillName: "MongoDB",
       classslider: SkillContainerStyle.SkillContainer_slider3,
-      skillValue: 70
+      skillValue: 85
     },
     {
       id: 4,
@@ -33,13 +33,13 @@ const SkillContainer = () => {
     },
     {
       id: 5,
-      skillName: "CSS3",
+      skillName: "HTML5 & CSS3",
       classslider: SkillContainerStyle.SkillContainer_slider3,
       skillValue: 90
     },
     {
       id: 6,
-      skillName: "HTML5",
+      skillName: "SQL",
       classslider: SkillContainerStyle.SkillContainer_slider3,
       skillValue: 85
     },
@@ -51,21 +51,27 @@ const SkillContainer = () => {
     },
     {
       id: 8,
-      skillName: "Git",
+      skillName: "Git & Github",
       classslider: SkillContainerStyle.SkillContainer_slider3,
-      skillValue: 80
+      skillValue: 90
     },
     {
       id: 9,
-      skillName: "Figma",
+      skillName: "Data Analytics",
       classslider: SkillContainerStyle.SkillContainer_slider3,
-      skillValue: 70
+      skillValue: 85
     },
     {
       id: 10,
       skillName: "Bootstrap",
       classslider: SkillContainerStyle.SkillContainer_slider3,
-      skillValue: 75
+      skillValue: 90
+    },
+    {
+      id: 11,
+      skillName: "Figma",
+      classslider: SkillContainerStyle.SkillContainer_slider3,
+      skillValue: 90
     },
   ]
 

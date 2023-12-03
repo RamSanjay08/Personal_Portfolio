@@ -88,14 +88,17 @@
 
 @media screen and (max-width: 968px) { 
   .navbar_left {
-    padding-left: 1rem;
+    padding-left: .9rem;
   }
 
   .navbar_right {
     padding-right: 6rem;
-    font-size: 1rem;
-
+    font-size: .9rem;
   }  
+
+  #navbar_right_content {
+    gap: 2.8rem;
+  }
 }
 
 @media screen and (max-width: 768px) {

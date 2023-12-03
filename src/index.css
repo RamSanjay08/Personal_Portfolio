@@ -1,90 +1,88 @@
- @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
- * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  transition: all .3s ease-in-out;
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ transition: all .3s ease-in-out;
 }
 
 html,body {
-  width: 100%;
+ width: 100%;
 }
 
- :root {
-  --Alata-Font: 'Alata', sans-serif;
-  --CrimsonText-Font: 'Crimson Text', serif;
-  --Poppins-Font: 'Poppins', sans-serif;
-  --OutFit-Font: 'Outfit', sans-serif;
+:root {
+ --Alata-Font: 'Alata', sans-serif;
+ --CrimsonText-Font: 'Crimson Text', serif;
+ --Poppins-Font: 'Poppins', sans-serif;
+ --OutFit-Font: 'Outfit', sans-serif;
 
-    --gradient-mode:
-    
-      linear-gradient(
-        to bottom,
-        hsl(212.09, 100%, 45.1%) 0%,
-        hsl(212.55, 96.8%, 45.71%) 8.1%,
-        hsl(212.88, 93.81%, 46.07%) 15.5%,
-        hsl(213.09, 90.97%, 46.2%) 22.5%,
-        hsl(213.18, 88.25%, 46.14%) 29%,
-        hsl(213.16, 85.64%, 45.9%) 35.3%,
-        hsl(213.04, 83.13%, 45.52%) 41.2%,
-        hsl(212.81, 80.71%, 45.02%) 47.1%,
-        hsl(212.49, 78.4%, 44.43%) 52.9%,
-        hsl(212.09, 76.2%, 43.78%) 58.8%,
-        hsl(211.62, 74.16%, 43.11%) 64.7%,
-        hsl(211.12, 72.33%, 42.47%) 71%,
-        hsl(210.63, 70.75%, 41.88%) 77.5%,
-        hsl(210.2, 69.52%, 41.41%) 84.5%,
-        hsl(209.9, 68.71%, 41.09%) 91.9%,
-        hsl(209.79, 68.42%, 40.98%) 100%
-      );
-
-      --body-background: #ffffff;
-      --Primary-color: #e32668;
-      --Seconday-color: #1C1E21;
-      --third-color: #03599b;
-      --btn-color: #ffffff;
-      --skills-color: #ffffff;
-      --green-color: hsl(104.23, 90.27%, 68.34%);
-      --form-bgcolor: #0f172a;
-      --Black-color : #0a0a0a;
-      --Black-color2 : #171717;
-    --intrest-bg: #1c3950;
+   --body-background: #0f172a;
+   --Primary-color: hsl(104.23, 90.27%, 68.34%);
+   --Seconday-color: #fafafa;
+   --third-color: #FFFB73;
+   --btn-color: #0F0C27;
+   --green-color: hsl(104.23, 90.27%, 68.34%);
+   --form-bgcolor: #0f172a;
+   --Black-color : #0a0a0a;
+   --Black-color2 : #171717;
+   --intrest-bg: #F3EEEA;
+ 
+ --gradient-mode: linear-gradient(
+     to bottom,
+     hsl(102.91, 94.05%, 67.06%) 0%,
+     hsl(103.08, 93.6%, 67.23%) 8.1%,
+     hsl(103.53, 92.32%, 67.68%) 15.5%,
+     hsl(104.23, 90.27%, 68.34%) 22.5%,
+     hsl(105.13, 87.5%, 69.12%) 29%,
+     hsl(106.2, 84.09%, 69.96%) 35.3%,
+     hsl(107.41, 80.12%, 70.8%) 41.2%,
+     hsl(108.76, 75.68%, 71.6%) 47.1%,
+     hsl(110.25, 70.94%, 72.33%) 52.9%,
+     hsl(111.85, 66.06%, 72.99%) 58.8%,
+     hsl(113.56, 61.25%, 73.56%) 64.7%,
+     hsl(115.32, 56.75%, 74.03%) 71%,
+     hsl(117.03, 52.8%, 74.4%) 77.5%,
+     hsl(118.53, 49.67%, 74.67%) 84.5%,
+     hsl(119.6, 47.61%, 74.84%) 91.9%,
+     hsl(120, 46.88%, 74.9%) 100%
+     );
 
 }
 
-  [data-theme="dark"] {
-    --body-background: #0f172a;
-    --Primary-color: hsl(104.23, 90.27%, 68.34%);
-    --Seconday-color: #fafafa;
-    --third-color: #FFFB73;
-    --btn-color: #0F0C27;
-    --green-color: hsl(104.23, 90.27%, 68.34%);
-    --form-bgcolor: #0f172a;
-    --Black-color : #0a0a0a;
-    --Black-color2 : #171717;
-    --intrest-bg: #F3EEEA;
-  
-  --gradient-mode: linear-gradient(
-      to bottom,
-      hsl(102.91, 94.05%, 67.06%) 0%,
-      hsl(103.08, 93.6%, 67.23%) 8.1%,
-      hsl(103.53, 92.32%, 67.68%) 15.5%,
-      hsl(104.23, 90.27%, 68.34%) 22.5%,
-      hsl(105.13, 87.5%, 69.12%) 29%,
-      hsl(106.2, 84.09%, 69.96%) 35.3%,
-      hsl(107.41, 80.12%, 70.8%) 41.2%,
-      hsl(108.76, 75.68%, 71.6%) 47.1%,
-      hsl(110.25, 70.94%, 72.33%) 52.9%,
-      hsl(111.85, 66.06%, 72.99%) 58.8%,
-      hsl(113.56, 61.25%, 73.56%) 64.7%,
-      hsl(115.32, 56.75%, 74.03%) 71%,
-      hsl(117.03, 52.8%, 74.4%) 77.5%,
-      hsl(118.53, 49.67%, 74.67%) 84.5%,
-      hsl(119.6, 47.61%, 74.84%) 91.9%,
-      hsl(120, 46.88%, 74.9%) 100%
-      );
+ [data-theme="dark"] {
+   --gradient-mode: linear-gradient(
+       to bottom,
+       hsl(212.09, 100%, 45.1%) 0%,
+       hsl(212.55, 96.8%, 45.71%) 8.1%,
+       hsl(212.88, 93.81%, 46.07%) 15.5%,
+       hsl(213.09, 90.97%, 46.2%) 22.5%,
+       hsl(213.18, 88.25%, 46.14%) 29%,
+       hsl(213.16, 85.64%, 45.9%) 35.3%,
+       hsl(213.04, 83.13%, 45.52%) 41.2%,
+       hsl(212.81, 80.71%, 45.02%) 47.1%,
+       hsl(212.49, 78.4%, 44.43%) 52.9%,
+       hsl(212.09, 76.2%, 43.78%) 58.8%,
+       hsl(211.62, 74.16%, 43.11%) 64.7%,
+       hsl(211.12, 72.33%, 42.47%) 71%,
+       hsl(210.63, 70.75%, 41.88%) 77.5%,
+       hsl(210.2, 69.52%, 41.41%) 84.5%,
+       hsl(209.9, 68.71%, 41.09%) 91.9%,
+       hsl(209.79, 68.42%, 40.98%) 100%
+     );
+
+     --body-background: #ffffff;
+     --Primary-color: #e32668;
+     --Seconday-color: #1C1E21;
+     --third-color: #03599b;
+     --btn-color: #ffffff;
+     --skills-color: #ffffff;
+     --green-color: hsl(104.23, 90.27%, 68.34%);
+     --form-bgcolor: #0f172a;
+     --Black-color : #0a0a0a;
+     --Black-color2 : #171717;
+   --intrest-bg: #1c3950;
 }
