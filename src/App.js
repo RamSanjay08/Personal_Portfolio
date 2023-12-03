@@ -15,8 +15,8 @@ function App() {
       <HomeContainer/>
       <AboutContainer/>
       <SkillContainer/>
-      <Experiences />
       <IntrestedContainer/>
+      <Experiences />
       <ProjectContainer/>
       <ContactContainer/>
     </div>

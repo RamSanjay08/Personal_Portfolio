@@ -1,5 +1,4 @@
 .ExperienceContainer {
-  min-height: 80vh;
   width: 86%;
   margin: auto;
   display: flex;
@@ -7,6 +6,7 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  padding-bottom: 3.5rem;
 }
 
 .ExperienceContent {
