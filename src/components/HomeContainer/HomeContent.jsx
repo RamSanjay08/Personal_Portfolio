@@ -54,5 +54,4 @@ const HomeContent = () => {
     </section>
   );
 };
-
 export default HomeContent;
