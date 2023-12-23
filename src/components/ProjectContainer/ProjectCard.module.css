@@ -11,6 +11,7 @@
 
 .Project_image {
   transition: .3s ease-in-out;
+  height: 210px;
 }
 
 .Project_image:hover {

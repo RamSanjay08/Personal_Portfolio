@@ -4,7 +4,8 @@
   import FoodApp from '../Assests/Food_App.png'
   import Youtube from '../Assests/Youtube-Clone.png'
   import Analog from '../Assests/Analog Clock.png'
-  import DataAnalytics from '../Assests/data analytics.png'
+  import DataAnalytics from '../Assests/data analytics.jpg'
+  import DisneyClone from '../Assests/disney-clone.png'
   
   const Projects = [
     {
@@ -45,12 +46,12 @@
     },
     {
       id: 5,
-      ImageSrc: ImageSearchApp,
-      title: 'Wallpaper API',
-      description: 'This web app provides a diverse range of images that you can explore through search, and it offers the option to download them easily',
-      skills: ["Vanilla JS","HTML & CSS"],
-      sourceLink: 'https://github.com/RamSanjay08/Image-Search-App',
-      liveLink: 'https://ramsanjay08.github.io/Image-Search-App/'
+      ImageSrc: DisneyClone,
+      title: 'Disney Clone',
+      description: 'A Disney clone developed with React that provides a variety of movie genres, with a responsive design and animated features',
+      skills: ["React JS","Tailwind CSS"],
+      sourceLink: 'https://github.com/RamSanjay08/Disney-Clone',
+      liveLink: 'https://disney-clone-web.vercel.app/'
     },
     {
       id: 6,
@@ -63,6 +64,15 @@
     },
     {
       id: 7,
+      ImageSrc: ImageSearchApp,
+      title: 'Wallpaper API',
+      description: 'This web app provides a diverse range of images that you can explore through search, and it offers the option to download them easily',
+      skills: ["Vanilla JS","HTML & CSS"],
+      sourceLink: 'https://github.com/RamSanjay08/Image-Search-App',
+      liveLink: 'https://ramsanjay08.github.io/Image-Search-App/'
+    },
+    {
+      id: 8,
       ImageSrc: Analog,
       title: 'Analog Clock',
       description: 'Dynamically develop a creatively designed analog clock in a web environment using JavaScript and style it with CSS',
