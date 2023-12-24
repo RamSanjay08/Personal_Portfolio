@@ -37,7 +37,7 @@ const HomeContent = () => {
           </h5>
           <div className={HomeContentStyles.HomeContent_left_btn}>
             <a
-              href="https://drive.google.com/file/d/1zeRFtqNITCwkdpz5KbiHDIGSUIMQdDVS/view?usp=sharing"
+              href="https://drive.google.com/file/d/1wbcnbv4zpINKlmGlqqsVjUylh7vhdwky/view?usp=sharing"
               target="_blank" download={true}
             >
               <button className={HomeContentStyles.btn_resume}>Resume</button>
