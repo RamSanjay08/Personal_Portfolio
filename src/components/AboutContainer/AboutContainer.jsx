@@ -50,5 +50,4 @@ const AboutContainer = () => {
     </Element>
   );
 };
-
 export default AboutContainer;

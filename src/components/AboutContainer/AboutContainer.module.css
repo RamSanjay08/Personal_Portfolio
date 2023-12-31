@@ -92,7 +92,6 @@
 }
 
 /*^ Media Queries */
-
 @media screen and (max-width: 1280px) {
   .aboutContainer_image img {
     width: 450px;
